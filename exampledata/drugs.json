@@ -1,0 +1,20 @@
+[
+  {
+  "id":"klo",
+  "name":"Aspirin 500 mg tablete",
+  "ingredients":["acetilsalicilna kislina"]
+  },
+
+  {
+  "id":"klq",
+  "name":"Aspirin Complex",
+  "ingredients":["acetilsalicilna kislina", "psevdoefedrinijev klorid"]
+  },
+
+  {
+  "id":"uo",
+  "name":"Ranital",
+  "ingredients":["ranitidin"]
+  }
+
+]

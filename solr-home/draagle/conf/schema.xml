@@ -14,10 +14,12 @@
 		<field name="ingredients" type="string" indexed="true" stored="true" required="false" multiValued="true"/>
 
 		<!-- The main text to return as the suggestion. This is not searched -->
-		<copyField source="name" dest="textsuggest"/>
 		<field name="atc" type="string" indexed="false" stored="true"/>
 
     <!-- should be multivalued because some multivalued fields (ingredients) are copied into -->
+		<copyField source="name" dest="textsuggest"/>
+		<copyField source="atc" dest="textsuggest"/>
+		<copyField source="ingredients" dest="textsuggest"/>
 		<field name="textsuggest" type="text_suggest" indexed="true" stored="true" omitNorms="true" multiValued="true"/>
 
 		<!-- An optional sub text to return only, not search -->

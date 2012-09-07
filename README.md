@@ -22,10 +22,18 @@ Openup browser and type in the address bar to get all Aspirins:
 
 ## Misc notes
 
+### git commit ups
 I screwed up adding `sorl-home/draagle/data` to index and commited. The rollback included:
 
     git reset --soft "HEAD^"
     git rm -r --cache solr-home/draagle/data
+
+### including child documents
+I tried to use xinclude to compose config files out of fragments, but of no luck. The problem was
+invoking more than one node from the child document. At the end, I used SGML entities as
+proposed by Bogdan Nicolau in:
+
+    http://lucene.472066.n3.nabble.com/XInclude-Multiple-Elements-td3167658.html
 
 ## References
 

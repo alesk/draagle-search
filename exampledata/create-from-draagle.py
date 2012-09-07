@@ -45,7 +45,7 @@ def populate_drug(drug, files):
 
     files['drugs'].append({
       'type':'drug', 
-      'id':'drug',
+      'id':drug['_id'],
       'name':drug['name'],
       'atc': atc_name,
       'ingredients':sum([ i.get('known_as', [i.get('name')]) for i in ingredients], [])
@@ -65,7 +65,7 @@ def populate():
   index = 0
   for drug in db.drug_drug.find({'is_proxy':False}):
     index += 1
-    if not index % 5 == 0:
+    if not index % 3 == 0:
       continue
     populate_drug(drug, files)
 

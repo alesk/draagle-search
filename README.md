@@ -26,5 +26,7 @@ I screwed up adding `sorl-home/draagle/data` to index and commited. The rollback
 
     git reset --soft "HEAD^"
     git rm -r --cache solr-home/draagle/data
-  
 
+## References
+
+  [1] https://github.com/cominvent/autocomplete

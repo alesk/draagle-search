@@ -15,17 +15,26 @@
 		<str name="pf">textnge^50.0</str>
 		<str name="bf">product(log(sum(popularity,1)),100)^20</str>
 		<!-- Define relative importance between types. May be overridden per request by e.g. &personboost=120 -->
-		<str name="boost">product(map(query($type1query),0,0,1,$type1boost),map(query($type2query),0,0,1,$type2boost),map(query($type3query),0,0,1,$type3boost),map(query($type4query),0,0,1,$type4boost),$typeboost)</str>
+    <str name="boost">product(
+      map(query($type1query),0,0,1,$type1boost),
+      map(query($type2query),0,0,1,$type2boost),
+      map(query($type3query),0,0,1,$type3boost),
+      map(query($type4query),0,0,1,$type4boost),
+      map(query($type5query),0,0,1,$type5boost),
+      $typeboost)
+    </str>
 		<double name="typeboost">1.0</double>
 
-		<str name="type1query">type:"Ingedient"</str>
-		<double name="type1boost">0.9</double>
-		<str name="type2query">type:"Drug"</str>
-		<double name="type2boost">0.5</double>
-		<str name="type3query">type:"NA"</str>
-		<double name="type3boost">0.0</double>
-		<str name="type4query">type:"NA"</str>
-		<double name="type4boost">0.0</double>
+		<str name="type1query">type:"atc"</str>
+		<double name="type1boost">1.0</double>
+		<str name="type2query">type:"ingredient"</str>
+		<double name="type2boost">0.9</double>
+		<str name="type3query">type:"indication"</str>
+		<double name="type3boost">0.8</double>
+		<str name="type4query">type:"drug"</str>
+		<double name="type4boost">0.5</double>
+		<str name="type5query">type:"NA"</str>
+		<double name="type5boost">0.0</double>
 
 		<str name="debugQuery">false</str>
     </lst>

@@ -33,7 +33,13 @@ I tried to use xinclude to compose config files out of fragments, but of no luck
 invoking more than one node from the child document. At the end, I used SGML entities as
 proposed by Bogdan Nicolau in:
 
-    http://lucene.472066.n3.nabble.com/XInclude-Multiple-Elements-td3167658.html
+http://lucene.472066.n3.nabble.com/XInclude-Multiple-Elements-td3167658.html
+
+
+## Research directions
+
+  * payloads http://sujitpal.blogspot.com/2010/10/denormalizing-maps-with-lucene-payloads.html  
+
 
 ## References
 

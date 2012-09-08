@@ -1,0 +1,502 @@
+# The ASF licenses this file to You under the Apache License, Version 2.0
+# (the "License"); you may not use this file except in compliance with
+# the License.  You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+#-----------------------------------------------------------------------
+#some test synonym mappings unlikely to appear in real input text
+aaafoo => aaabar
+bbbfoo => bbbfoo bbbbar
+cccfoo => cccbar cccbaz
+fooaaa,baraaa,bazaaa
+
+# Some synonym groups specific to this example
+GB,gib,gigabyte,gigabytes
+MB,mib,megabyte,megabytes
+Television, Televisions, TV, TVs
+#notice we use "gib" instead of "GiB" so any WordDelimiterFilter coming
+#after us won't split it into two words.
+
+# Synonym mappings can be used for spelling correction too
+aids,hiv,hiv+
+abdomen, trebuh
+abortus, splav
+absces, ognojek
+absoluten, kompleten, popoln
+absorpcija, vpijanje, vsrkavanje
+achalasia, ahalazija
+acidnost, kislost
+adrenalen, nadledvičen, suprarenalen
+afakija, brezlečnost
+agregacija, akumulacija, kopičenje, nabiranje
+agresija, agresivnost, napadalnost, nasilnost
+akna, mozolj, ogrc
+aknavost, mozoljavost
+akomodacija, prilagoditev
+akumulirati, kopičiti, nalagati
+alanin-aminotransferaza, alt
+alergija, hipersenzibilnost, intoleranca, preobčutljivost
+alkalnost, bazičnost
+ambliopija, slabovidnost
+aminofilin, aminophyllinum
+anemija, slabokrvnost
+anesteziolog, anestezist
+angioneurotičen, angionevrotičen
+antagonist, blokator, inhibitor, zaviralec
+antiinflamatoren, protivneten
+antipsihotik, nevroleptik
+apliciranje, doziranje, jemanje, vzeti
+arest, zastoj
+aseptičen, brezkužen
+asimptomatičen, asimptomatski, brezsimptomski
+aspiracija, vdih
+ataka, erupcija, izbruh, napad, paroksizem
+atipičen, nespecifičen, netipičen, neznačilen
+atrij, preddvor
+atrijski, preddvoren, preddvorno
+bacil, bacillus
+beljakovina, protein
+benigen, nenevaren, neškodljiv
+beta-hemolitičen, betahemolitičen
+blag, mil
+bljuvanje, bruhanje, emeza, kozlanje, povračanje
+bolezenski, patogen, patološki
+bolnik, pacient
+borborigem, kruljenje
+božjast, epilepsija
+bradavica, papula
+brazgotinjenje, fibroza
+bronhij, bronhus, dušnica
+brucela, brucella
+calculus, kalkul, kamen
+cefaleja, glavobol
+cepljenje, vakcinija
+cerebralen, možganski
+cerebro-vaskularen, cerebrovaskularen, možgansko-žilnen, možganskožilen
+cervikalen, vrat, vraten
+chlamydia, clamidia, klamidija
+chloramphenicol, kloramfenikol
+chronov, crohnov
+clostridium, klostridij
+cranium, lobanja
+danka, rektum
+debelost, tolščavost
+deformacija, malformacija
+del, delo, frakcija, segment
+delen, parcialen, segmenten
+delirij, delirium
+depersonalizacija, razosebljenje
+dermalen, kožen
+diaforeza, potenje, znojenje
+diahnje, ventilacija
+diareja, driska
+dimeljski, ingvinalen
+disfonija, dysphonia, hripavost
+dishidroza, pompholyx
+distenzija, širjenje
+dlakavost, poraščenost
+dlakavost, poraščenost
+doba, interval
+dojka, joške, prsa, prsi
+doza, odmerek
+draženje, iritacija
+duševen, psihičen
+dvanajsternik, dvanajstnik
+dvig, elevacija
+edem, otekanje, oteklina, oteklost
+edematozen, otekel, otečen
+ekcem, izpuščaj
+ekg, elektrokardiografija, elektrokardiogram
+ekscitacija, vzburjenje, vzdraženje
+eksfoliacija, luščenje
+ekstrakt, izvleček, izlužiti
+eksudativen, izceden
+emocionalen, čustven
+endogen, notranji
+enterococcus, enterokok
+epididymis, obmodek
+epifora, solzenje
+eritematodes, eritematozis, eritematozus
+ezofagealen, požiralničen, požiralniški
+ezofagus, požiralnik
+faringealen, faringo, žrelen, žrelno
+faringo-laringealen, faringolaringealen, žrelno-grlen
+faringo-oralen, žrelno-usten
+febrilen, vročičen
+fertilnost, plodnost
+fetus, plod
+fibrilacija, migetanje
+fisura, ragada, razpoka
+fobija, strah
+forma, oblika
+fotosenzibilizacija, fotosenzibilnost, fotosenzitivnost
+furunkel, tur, tvor
+gama-glutamiltransferaza, gama-gt, gamaglutamiltransferaza, glutamiltransferaza
+gastro-duodenalen, želodčno-dvanajsterniški
+gastro-ezofagealen, gastroezofagealen, želodčno-požiralniški
+gastroentestinalen, gastrointestinalen
+genitalen, seksualen, spolen
+gentiana, svišč
+ggt, γ-glutamiltransferaza
+glikozuria, glikozurija, glukozuria, glukozurija
+glomerularen, glomerulen
+glosofaringealen, jezično-žrelen
+gluhost, oglušelost
+gobavost, lepra
+granula, zrnce
+gripa, influenca
+grlo, larinks, larynx
+guba, naguban, zguban
+hematom, modrica, podplutba
+hemodinamičen, hemodinamski
+hemoragija, krvavitev
+henoch-schoenleinov, henoch-schonleinov, henoch-schönleinov
+hepar, jetra
+hepatičen, jeteren
+hepatom => jetra
+hepatorenalen, jeterno-ledvičen
+hernija, kila, pruh
+herpesen, herpetičen
+herpetiformen, herpetiformis
+hidrofoben, vodoodbojen
+hidrogen, vodik
+hiperaktivnost, hiperkinezija
+hiperkoagulabilen, trombofilen
+hipersalivacija, salivacija, slinjenje
+hipnotik, uspavalo
+hipnotični, uspavalen
+hipofizno-adrenalen, hipofiznoadrenalen
+hiter, nagel
+holestatičen, holestatski
+hostilnost, sovražnost
+hud, močen, resen
+ikterus, zlatenica
+immunosuppressiv, imunosupresiv
+impetigo, krastavost
+infekcija, okužba
+infekcijski, infektiven
+infestacija, invazija
+inhaliranje, vdhihovanje
+inhibirati, zavirati
+injiciranje, vbrizganje
+insomnia, insomnija, nespečnost
+insulin, inzulin
+insult, inzult, kap
+intakten, nedotaknjen, nepoškodovan
+intelektualnen, kognitiven, mentalen, umski
+intenziteta, jakost, moč
+interglutealen, medritničen
+intermitenten, nepovezan, prekinjen
+intestinalen, črevesen, črevesje, črevo
+intoksikacija, zastrupitev
+intraabdominalen, znotrajtrebušen
+intraarterijski, varterijski, znotrajarterijski
+intrahepatalen, intrahepaten, intrahepatičen, intraheptalen, vjeteren, znotrajjeteren
+intrakardialen, znotrajsrčen
+intramuskularen, vmišičen, znotrajmišičen
+intraokularen, vočesen, znotrajočesen
+intraosealen, vkosten, znotrajkosten
+intratrahealen, znotrajsapničen
+intrauterin, znotrajmaterničen
+intravaskularen, intravazalen, znotrajžilen
+intravenski, znotrajvenski
+ireverzibilen, nepovraten
+iritiran, nadražen, razdražen
+izdahnitni, izdihniti
+izprati, spirati
+izražen, manifesten, pojaven
+izžiganje, kavterizacija
+jajčnik, ovarij, ovarium
+jederski, nuklearen
+kadidiaza, kandidaza
+kalcifikacija, kalcinacija, kalcinoza
+kalofonija, kolofonija
+kardialen, koronaren, srčen
+kardiopulmonalen, kardiopulmonaren, srčno-pljučen
+kardiorespiratoren, srčno-dihalen
+keratinizacija, poroženevanje, poroževanje
+keratoconjunctivitis, keratokonjunktivitis
+kg, kilogram
+kinasa, kinaze
+klavdikacija, šepanje
+klimakterij, mena, menopavza
+klirens, očistek
+koder, skodran
+količina, koncentracija, raven, stopnja, vrednost, vsebnost, število
+kongenitalen, prirojen
+konstanten, stalen
+konstipacija, obstipacija, zaprtje
+konstrikcija, kontrakcija, krčenje, skrčenje
+konstrikcijski, konstriktiven
+kontaminacija, onesnaženje
+kontinuiran, neprekinjen, nepretrgan
+konvulzija, krč, spazem
+koprivnica, urticaria, urtikaria, urtikarija, utrikarija
+korekcije, popravek
+korigiran, popravljen
+korigirati, popraviti
+kost, kosten
+kožno-sluzničen, kožnosluzničen, muko-kutana, mukokutan
+kranium, lobanija
+kratkovidnost, miopija, myopia
+kreatin-fosfokinaza, kreatinfosfokinaza
+kreatin-kinaza, kreatinkinaza
+kroglica, krogljica
+kroničen, periodičen, ponavljajoč, rekurenten
+kroničnen, trajen
+krvav, krvavkasr, krvavkast
+krčen, varikozen
+kvartal, trimesečje, tromesečje
+labilnost, neuravnovešenost
+lansoprazol, lanzoprazol
+latenten, neviden, okulten, prikrit
+ledivce, ledven, ledvica, ledvičen
+legionela, legionella
+lenoba, lenobnost, lenost
+leukopenija, levkocitopenija, levkopenija
+levkocistoklastičen, levkocitoklastičen
+levkocit, levkociten
+levkociturija, piurija
+lewyev, lewyjev
+ligament, vez
+lihenoiden, lišajski
+lipid, maščoba
+lobaren, lobularen
+lulanje, mikcija, mokrenje, scanje, uriniranje
+luskavica, psoriasis, psoriaza
+lutea, rumen
+madež, makrogol, peg, pega, polietilenglikol
+majhen, nizek, pomanjšan, premajhen, prenizek, zmanjšan, znižan
+makulopapularen, makulopapulen, makulopapulozen
+malignom, rak
+manko, primanjkljaj
+mao, monoaminooksidaza
+maternica, uterus, uterusa
+materničen, uterin
+medenica, pelvis
+medeničen, pelvičnen
+medikament, medikamenten, medikamentozen, zdravilo
+mehak, mehek
+mehaničen, mehanski
+melaena, melena
+melisa, melissa
+menstruacijski, menstrualen
+metabolen, metabolizem, metaboličen, presnavljanje, presnova, presnoven
+metabolit, presnovek
+metabolizirati, presnavljati
+metastaza, zasevek
+mikobakterija, mycobacterium
+mikoplazma, mycoplasma, mycoplasmae
+mikoroembolizem, mikroembolija
+mikrob, mikroorganizem
+miliaria, miliarija
+mišica, mišičen
+mišično-skeleten, mišičnoskeleten
+modo, testis
+mogoč, možen
+morbilli, ošpice
+mraz, zmrznil
+mrežnica, retina
+mrežničen, retinalen
+mukozen, sluzničen
+multiforma, multiformen
+nadaljen, nadaljnji
+nadlaht, nadlaket
+nadomestek, nadomestilo, substitut
+nadprekaten, supraventrikularen
+najbrž, verjetno
+naključen, slučajen
+napetost, tonus
+napredovali, napredovan, napredovati
+napredovanje, progresija
+napredujoč, progresiven
+nasičen, saturiran
+nasičenost, saturiranost
+natančen, precizen
+natančnejši, preciznejši
+natančno, točno
+natančnost, preciznost
+natrganje, perforacija, predrtje, raztrganje
+navzoč, prisoten
+nazalen, nosen
+nazogastričen, nosno-želodčen
+neadekvaten, neprimeren, neustrezen
+nedovoljen, prepovedan
+nefrotičen, nefrotski
+nekrotizirajoč, nekrozaten, nekrozen, nekrozirajoč
+nemudoma, takoj, urgentno
+nenormalen, neobičajen
+nenujen, neurgenten
+neodložljiv, nujen, urgenten
+neoplazma, novotvorba, tumor
+neravnotežje, neravnovesje
+nervoza, živčnost
+nervus, živec
+nestrupen, netoksičen
+nevrološki, živčen
+nevromuskularen, živčno-mišičen, živčnomišičen
+nikdar, nikoli
+nocardiosis, nokardioza
+nožničen, vaginalen
+obarjanje, precipitacija
+obnosen, paranazalen
+oboperacijski, perioperacijski, perioperativen
+oborina, precipitat
+obočesen, periokularen
+obporoden, puerperalen
+obroben, periferen
+obsevanje, radioterapija
+obstojen, persistenten, perzistenten
+obusten, perioralen
+obušesen, parotiden
+občasen, paroksizmalen
+občutek, občutenje
+obščitnica, paratiroidea
+odmor, pavza, premor, prekinitev
+odporen, rezistenten
+oftalmičen, oko, okularen, ophtalmicus, očesen
+ohromelost, paraliza
+okoli, okrog
+okorelost, rigor
+oligourija, oligurija
+omedlevica, sinkopa
+omotica, omotičnost
+omrtvelost, pareza
+ondulacija, plapolanje, undulacija
+operacijski, operativen
+oportunističen, priložnosten
+oralno, ustno
+orešek, orešček
+orofaringealen, ustno-žrelen, utnožrelen
+ortostatičen, ortostatski, posturalen
+osamljen, solitaren
+osebnost, osebnosten
+oslabelost, oslabljenost
+osteoartritis, osteoartroza
+oteklina => edem
+oz, oziroma
+ozdraviti, pozdraviti
+papulo-pustularen, papulopustularen
+paraesthesia, parastezija, parestezija
+partus, porod
+pemfigoid, pemfigus
+penetracija, prodiranje
+perikarden, perikardialen, perikardijski
+peritonalen, peritonealen, peritonejski, potrebušničen
+peritonzilaren, peritonzilen
+pigmenten, pigmentozen
+placenta, posteljica
+plasmodium, plazmodij
+plevra, popljučnica
+pljučen, pulmonalen, pulmonaren
+pljučnica, pneumonia, pnevmonija
+podjezičen, sublingvalen
+podkožen, subkutan
+pomenopavzen, postmenopavzalen, postmenopavzen
+pomešati, premešati
+pomirjenje, sedacija
+pomirjevalo, sedativ
+pomladanski, pomladen, spomladanski
+ponovitev, rekurentno, repriza
+ponovno, znova
+popoškodben, posttravmatski
+porast, povečan, povišan, prekomeren, velik, visok, zvečan, zvišan, čezmeren, večji, višji
+pordelost, pordečitev
+posamezen, posamičen
+posedanje, sedimentacija
+povešenost, ptoza
+povišan, zvišan, zvečan => visok
+površinski, topikalen
+predhodnik, prekurzor
+predkomatozen, prekomatozen
+predmenstrualen, premenstrualen
+predoperacijski, predoperativen
+prehoden, tranzitoren, začasen
+preizkušanje, preskušanje, testiranje
+prekat, ventrikel
+prekrvavitev, prekrvitev
+prepolavljanje, razpolavljanje
+prepoloviti, razpoloviti
+preprečevanje, preventiva, profilaksa, zaščita, protekc
+pretin, septum
+pretrganje, raztrganina, ruptura
+preučen, proučen
+primaren, prvoten
+pritisk => tlak
+pritisk, tlak
+prolaps, zdrs
+proti, zoper
+pruritus, srbečica
+pseudomembranski, psevdomembranozen, psevdomembranski
+psevdoeksfoliacijski, psevdoeksfoliativen
+pustularen, pustulozen
+raba, uporaba
+rakast, rakav
+ravnotežje, ravnovesen, vestibularen
+razburjenje, razburjenost
+razjeda, ulceracija, ulkus
+razmak, razmik
+rdeč, rdečkast
+refluks, zgaga
+revmatičen, revmatoiden, revmatski
+rickettsia, rikecija
+rjav, rjavkast
+rozacea, rozaceja
+salmonela, salmonella
+samomorilen, suicidalen
+sapnik, trahea, traheja
+seboroin, seboroičen
+seksualen, spolen
+senilen, starosten
+senzomotoričen, senzorimotoričen
+senzoričen, čutilen
+serotoninergičen, serotoninski
+serum, kri, plazma
+sečnica, uretra
+sečnina, urea
+shigella, šigela
+simpatikomimetik, simpatomimetik
+simpleks, simplex
+simptomatičen, simptomatski
+sinoatrialen, sinoatrijski, sinuatrialen
+siv, sivkast
+skleroderma, sklerodermija
+skupek, zbir
+somnolenca, zaspanost
+spondilartritis, spondiloartritis
+stafilokok, staphylococcus
+stenoza, zoženje
+steven-johnson-ov, steven-johnsonov, stevenjohnsonov, stevens-johnson, stevens-johnson-ov, stevens-johnsonov, stevensjohnsonov
+streptococcus, streptokok
+strupen, toksičen
+subarahnoidalen, subarahnoiden
+subkapsularen, subkapsulen
+substituiran, zamenjan
+sulfonilsečnina, sulfonilurea
+tahiaritmija, tahikardija
+tiroidea, ščitnica
+travmatičen, travmatski
+tremor, tresavica, tresenje
+trichomonas, trihomonas
+trombembolija, tromboembolija
+uho, ušesen
+ulcerativen, ulcerozen, ulkusen
+vedno, zmeraj, zmerom
+venozen, venski
+vertigo, vrtoglavica
+veziva, veziven
+vkapanje, vkapljanje
+vnetje glavica penis, vnetje penis => balinitis
+vnetje jetra => hepatitis
+vnetje ledvica => nefritis
+vnetje možgani, encefalitis
+β-blokator, β-zaviralec, beta blokator, beta zaviralec
+dvanajstnik,dvanajsternik
+kurac, penis, lulček, lulek, kurec

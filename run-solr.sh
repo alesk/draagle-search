@@ -23,6 +23,8 @@ export JAVA_OPTIONS="-server \
                      -XX:+UseParNewGC \
                      -XX:+PrintGCDetails \
                      -Xms512m -Xmx1024m \
+                     -Duser.language=sl \
+                     -Duser.country=SI \
                      -Dsolr.solr.home=$SOLR_HOME \
                      -Djetty.port=$PORT \
                      $JAVA_OPTIONS"

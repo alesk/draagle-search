@@ -10,8 +10,8 @@
 		     Then use a dismax query to search on some fields, display some fields and boost others
 		 -->
 		<field name="id" type="string" indexed="true" stored="true" required="true"/>
-		<field name="name" type="string" indexed="true" stored="true" required="true"/>
-		<field name="ingredients" type="string" indexed="true" stored="true" required="false" multiValued="true"/>
+		<field name="name" type="text_sl" indexed="true" stored="true" required="true"/>
+		<field name="ingredients" type="text_sl_term" indexed="true" stored="true" required="false" multiValued="true"/>
 
 		<!-- The main text to return as the suggestion. This is not searched -->
 		<field name="atc" type="string" indexed="false" stored="true"/>

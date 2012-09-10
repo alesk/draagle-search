@@ -22,6 +22,9 @@
 		<copyField source="ingredients" dest="textsuggest"/>
 		<field name="textsuggest" type="text_suggest" indexed="true" stored="true" omitNorms="true" multiValued="true"/>
 
+		<copyField source="*" dest="textspell"/>
+		<field name="textspell" type="text_spell" indexed="true" stored="true" omitNorms="true" multiValued="true"/>
+
 		<!-- An optional sub text to return only, not search -->
 		<field name="subtext" type="string" indexed="false" stored="true"/>
 

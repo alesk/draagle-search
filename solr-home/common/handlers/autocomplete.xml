@@ -11,7 +11,7 @@
       <str name="fl">id,name,type,score</str>
 
       <!-- "Query Fields" tells whitch fields to match (with boost option designated with ^\d+)-->
-      <str name="qf">name^50 textsuggest^30 extrasearch^30.0 textng^50.0 phonetic^10</str>
+      <str name="qf">identities^100 name^50 textsuggest^30 extrasearch^30.0 textng^50.0 phonetic^10</str>
 
       <str name="fq">type:ingredient OR type:drug</str>
 

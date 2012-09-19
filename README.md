@@ -20,6 +20,13 @@ Openup browser and type in the address bar to get all Aspirins:
 
 
 
+## Faceting
+
+Faceting works best when data is untokenized. I us special field `ingredients_facet` for this
+purpose. It uses plain solr `string` type without tokenisation and storing.
+
+See: http://wiki.apache.org/solr/SolrFacetingOverview
+
 ## Misc notes
 
 ### git commit ups
@@ -35,6 +42,9 @@ proposed by Bogdan Nicolau in:
 
 http://lucene.472066.n3.nabble.com/XInclude-Multiple-Elements-td3167658.html
 
+### Unit tests with plovr
+
+For testing with plovr see http://plovr.com/testing.html.
 
 ## Research directions
 
@@ -43,4 +53,5 @@ http://lucene.472066.n3.nabble.com/XInclude-Multiple-Elements-td3167658.html
 
 ## References
 
-  [1] https://github.com/cominvent/autocomplete
+  1 https://github.com/cominvent/autocomplete
+  2 "IBM's series on solr" http://www.ibm.com/developerworks/java/library/j-solr1/#searching

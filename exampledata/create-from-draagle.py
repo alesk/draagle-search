@@ -3,6 +3,7 @@
 
 from pymongo import Connection
 from string import strip
+from hashlib import md5
 import codecs
 import json
 
@@ -12,6 +13,7 @@ DATABASE = 'draagle'
 
 db = Connection(HOST, PORT)[DATABASE]
 
+INDICATION = 10
 INGREDIENT = 30
 
 def filter_by_sort(coll, sort):
@@ -35,20 +37,54 @@ def populate_drug(drug, files):
 
     ingredient_ids = [ f['ingredients'] for f in filter_by_sort(facts, INGREDIENT)]
     ingredients = list(db.drug_ingredient.find({'_id':{'$in':ingredient_ids}}))
+    known_as = dict([ (i['name'], i.get('known_as', [i.get('name')])) 
+      for i in ingredients])
+
+    indications = [ f['name'] for f in filter_by_sort(facts, INDICATION) if f['name']]
+    manufacturer = drug.get('manufacturer','') or ''
+    idzp = drug.get('idzp','') or ''
 
     for i in ingredients:
-      files['ingredients'].append({
-        'type':'ingredient', 
-        'id':i['_id'],
-        'name':i['name']
-        })
+      for name in known_as[i['name']]:
+        files['ingredients'].append({
+          'type':'ingredient', 
+          'id':md5(name.encode('utf-8')).hexdigest(),
+          'name':name
+          })
+
+    for name in indications:
+      files['indications'].append({
+        'type':'indication', 
+        'id':md5(name.encode('utf-8')).hexdigest(),
+        'name':name })
+
+    if manufacturer:
+      files['parties'].append({
+        'type':'manufacturer', 
+        'id':md5(manufacturer.encode('utf-8')).hexdigest(),
+        'name':manufacturer })
+
+    if idzp:
+      files['parties'].append({
+        'type':'idzp', 
+        'id':md5(idzp.encode('utf-8')).hexdigest(),
+        'name':idzp })
 
     files['drugs'].append({
       'type':'drug', 
       'id':drug['_id'],
       'name':drug['name'],
       'atc': atc_name,
-      'ingredients':sum([ i.get('known_as', [i.get('name')]) for i in ingredients], [])
+      'identities':[ i for i in drug.get('identities') if len(i or '') > 4],
+      'ingredients':[ k for k in known_as.keys()],
+      'known_as':sum([v for v in known_as.values()], []),
+      'indications':[ f['name'] for f in filter_by_sort(facts, INDICATION) if f['name']],
+      'manufacturer':drug['manufacturer'],
+      'idzp':drug['idzp'],
+      'is_proxy':drug['is_proxy'],
+      'rezim_izdaje':drug.get('rezim_izdaje', None),
+      'trigonik':drug.get('trigonik', None),
+      'product_type':drug.get('product_type', "8")
       })
 
 
@@ -63,10 +99,10 @@ def populate():
   }
 
   index = 0
-  for drug in db.drug_drug.find({'is_proxy':False}):
+  for drug in db.drug_drug.find():
     index += 1
-    if not index % 3 == 0:
-      continue
+    #if not index % 3 == 0:
+    #  continue
     populate_drug(drug, files)
 
   return files

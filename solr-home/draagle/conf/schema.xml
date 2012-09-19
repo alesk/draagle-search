@@ -11,18 +11,39 @@
 		 -->
 		<field name="id" type="string" indexed="true" stored="true" required="true"/>
 		<field name="name" type="text_sl" indexed="true" stored="true" required="true"/>
-		<field name="ingredients" type="text_sl_term" indexed="true" stored="true" required="false" multiValued="true"/>
+
+		<field name="identities" type="string" indexed="true" stored="true" required="false" multiValued="true"/>
+		<field name="ingredients" type="ingredient_string" indexed="true" stored="true" required="false" multiValued="true"/>
+		<field name="excipient" type="ingredient_string" indexed="true" stored="true" required="false" multiValued="true"/>
+		<field name="known_as" type="ingredient_string" indexed="true" stored="true" required="false" multiValued="true"/>
+
+    <field name="indications" type="text_sl_term" indexed="true" stored="true" required="false" multiValued="true" termVectors="true" termPositions="true" termOffsets="true" />
+		<field name="rezim_izdaje" type="string" indexed="true" stored="true" required="false" multiValued="true"/>
+		<field name="trigonik" type="string" indexed="true" stored="true" required="false" multiValued="true"/>
+		<field name="is_proxy" type="boolean" indexed="true" stored="true" required="false" />
+		<field name="is_urgent" type="boolean" indexed="true" stored="true" required="false" />
+
+		<field name="product_type" type="string" indexed="true" stored="true" required="false" />
+
+		<field name="manufacturer" type="text_sl" indexed="true" stored="true" required="false"/>
+		<field name="idzp" type="text_sl" indexed="true" stored="true" required="false"/>
+
+    <!-- faceting fields -->
+		<copyField source="ingredients" dest="ingredients_facet"/>
+		<field name="ingredients_facet" type="string" indexed="true" stored="false" required="false" multiValued="true"/>
+    
 
 		<!-- The main text to return as the suggestion. This is not searched -->
 		<field name="atc" type="string" indexed="false" stored="true"/>
 
     <!-- should be multivalued because some multivalued fields (ingredients) are copied into -->
 		<copyField source="name" dest="textsuggest"/>
-		<copyField source="atc" dest="textsuggest"/>
-		<copyField source="ingredients" dest="textsuggest"/>
 		<field name="textsuggest" type="text_suggest" indexed="true" stored="true" omitNorms="true" multiValued="true"/>
 
-		<copyField source="*" dest="textspell"/>
+		<copyField source="name" dest="textspell"/>
+		<copyField source="ingredients" dest="textspell"/>
+		<copyField source="indications" dest="textspell"/>
+		<copyField source="known_as" dest="textspell"/>
 		<field name="textspell" type="text_spell" indexed="true" stored="true" omitNorms="true" multiValued="true"/>
 
 		<!-- An optional sub text to return only, not search -->

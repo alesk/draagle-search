@@ -7,11 +7,18 @@ agonisti 5-ht1, triptani
 agonisti dopamina, dopaminski agonisti
 agonisti holinergičnih receptorje, agonisti holinergičnega sistema
 albuterol, salbutamol
+alendronska kislina, alendronat
 alfa-metildopa, metildopa
-alfa-tokoferol, e307
+alfa-tokoferol, α-tokoferilacetat, dl-a-tokoferol, dl-α-tokoferilacetat, dl α-tokoferilacetat
+alklometazondipropionat, alklometazon
 alkohol, alkoholne pijače
 amfotericin, amfotericin b
+amilorid, amiloridijev klorid
+aminofilin, aminofilin (intravensko)
 aminoglikozidni antibiotiki, aminoglikozidi
+amiodaron, amiodaronijev klorid
+amitriptilinijev klorid, amitriptilin
+amoksicilin trihidrat, amoksicilin
 ampicilinski antibiotiki, ampicilinski estri, ampicilini
 analgetiki s centralnim učinkom, narkotični analgetiki, narkotiki, močni analgetiki
 analogi folne kisline, folatni antimetaboliti
@@ -23,6 +30,7 @@ antagonisti dopamina, antagonisti dopaminskih receptorjev, dopaminski antagonist
 antagonisti h2 receptorjev, antagonisti receptorjev h2, zaviralci receptorjev h2, h2 antagonisti, antagonisti histaminskih receptorjev h2
 antagonisti holinergičnega sistema, antiholinergiki
 antagonisti muskarinskih holinergičnih receptorjev, antimuskarinska zdravila
+antazolinijev klorid, antazolin
 antiaritmiki vključno s podskupinami ia, ib in ic, antiaritmiki
 antiepileptiki, antikonvulzivi
 antihemoragiki, antihemoragična zdravila
@@ -31,46 +39,88 @@ antiinfektivi, protimikrobna sredstva, protimikrobna zdravila
 antiparkinsonska zdravila, antiparkinsoniki
 antipsihotiki, nevroleptiki
 antitrombocitne učinkovine, antitrombotiki, antitrombotična zdravila
+argininijev perindoprilat, perindoprilijev erbuminat, perindopril, terc-butilaminijev perindoprilat
 atovakvon, atovakon
+azitromicin, azitromicin dihidrat
+beklometazon, beklometazondipropionat
+benzidaminijev klorid, benzidamin
 benzilpenicilin, penicilin g
 beta agonisti, beta-adrenergični blokatorji, blokatorji beta, blokatorji receptorjev beta, zaviralci adrenergični receptorji β, beta adrenergični blokatorji, zaviralci receptorjev β, zaviralci receptorjev beta, zaviralci adrenergičnih receptorjev beta, β-blokatorji, blokatorji beta receptorjev, zaviralci beta-adrenergičnih receptorjev, beta blokatorji, Β- blokatorji, zaviralci beta, antagonisti adrenergičnih receptorjev beta, beta-simpatikolitiki
 beta-adrenergična zdravila, betaadrenergiki
 beta-simpatikomimetiki, selektivni in neselektivni agonisti receptorjev beta, agonisti beta, agonisti beta receptorjev, agonisti receptorjev beta, beta simpatikomimetiki
+betahistinijev klorid, betahistinijev diklorid, betahistin
+betametazondipropionat, betametazon
 bigvanidi, bigvanid
 biotin, vitamin b7
-biperiden, beperiden
+biperidenijev klorid, biperiden, beperiden
 bisfosfonati, difosfonati, bifosfonati
+bisoprololijev hemifumarat, bisoprolol, bisoprololijev fumarat
 blokatorji receptorjev alfa, blokatorji alfa, antagonisti adrenergičnih receptorjev alfa
 blokatorji receptorjev angiotenzina ii, antagonisti angiotenzina ii
+brimonidinijev tartrat, brimonidin
+brinzolamid (lokalno), brinzolamid
+bromheksin, bromheksinijev klorid
 bronhoselektivni agonisti receptorjev beta-2, simpatikomimetični bronhodilatatorji
+bupropionijev klorid, bupropion
+butamirat, butamiratijev citrat
+cefaklor monohidrat, cefaklor
 cefalosporinski antibiotiki, cefalosporini
 cepiva proti gripi, vakcine proti gripi, cepivo proti influenci
+cetilpiridinijev klorid, cetilpiridin
+cetirizin, cetirizinijev diklorid, cetirizinijev klorid
 cholecalciferolum, vitamin d3, holekalciferol
 ciklosporin a, ciklosporin
+cileksetilkandesartanat, kandesartan
+cinhokain, cinhokainijev klorid
+ciproteronacetat, ciproteron
 cnicus benedictus l., herba, zel benediktinke
 colchicine, kolhicin
+dabigatran, dabigatran eteksilat
+dekstrometorfanijev bromid, dekstrometorfan
 dekstropropoksifen, propoksifen
 desloratadin, dezloratadin
 dezipramin, desipramin
+dezmopresinijev acetat, dezmopresin
 digitalis, digitalisovi pripravki, digitalisovi glikozidi
 dihidropiridinski inhibitorji kalcijevih kanalov, dihidropiridini
+diltiazem, diltiazemijev klorid
+dimetindenijev maleat, dimetinden
 disopiramid, dizopiramid
 diuretiki zanke, diuretiki henlejeve zanke
 diuretiki, ki varčujejo kalij, diuretiki, ki varčujejo s kalijem, diuretiki, ki ohranjajo kalij, diuretiki, ki zadržujejo kalij
 dolgodelujoči nitrati, dolgo delujoči pripravki nitratov
+donepezilijev klorid, donepezil
+dopamin, dopaminijev klorid
+dorzolamid, dorzolamid (lokalno)
 e171, titanov dioksid (e171), titanov dioksid
 e308, gama-tokoferol
 e309, delta-tokoferol
 e460a, mikrokristalna celuloza, mikrokristalna celuloza (e460a)
 e553b, smukec, smukec (e553b)
 e572, magnezijev stearat, magnezijev stearat (e572)
+enalaprilijev maleat, enalapril
+epoetin beta, metoksipolietilenglikol epoetin beta
+estradiolvalerat, estradiol
+estramustinfosfat, estramustin
+etidronat, etidronska kislina
+feksofenadin, feksofenadinijev klorid
+fenilefrinijev klorid, fenilefrin
 fenobarbiton, fenobarbital
 fenoterol in ipratropij, fenoterolijev bromid in ipratropijev bromid
+fenoterol, fenoterolijev bromid
 fenotiazinski derivati, fenotiazini
+fesoterodinijev fumarat, fesoterodin
 fibrinolitiki, trombolitiki
 fitinska kislina, fitična kislina
 fluconazole, flukonazol
+flumetasonpivalat, flumetason
 fluorokinoloni, fluorokinolonski antibiotiki
+fluorometolon, fluorometolonacetat
+flurazepamijev klorid, flurazepam
+flutikazon, flutikazonfuroat, flutikazonpropionat
+folkodin, folkodin monohidrat
+formoterol, formoterolijev fumarat dihidrat
+fozinopril, natrijev fozinoprilat
 fumariae herba, zel navadne rosnice
 ganglijski zaviralci, ganglijski blokatorji
 gestageni, progestogeni, progestageni
@@ -78,13 +128,15 @@ ginseng, panax spp.
 glitazoni, tiazolidindioni
 glukokortikoidi, glukokortikosteroidi
 halogenirani anestetiki, halogenirani ogljikovodikovi anestetiki
+heparin, natrijev heparinat
 heparinski antitrombotiki, heparini
 hidroklortiazid, hidroklorotiazid
-hidroksikobalamin, hidroksokobalamin, vitamin b12a
+hidrokortizonbutirat, kortizol, hidrokortizon
 hidroksipropil metilceluloza, hipromeloza
+hidromorfonijev klorid, hidromorfon
+hidrotalcit, magnezijev karbonat; magnezijev hidroksid; aluminijev hidroksid
 hipnotiki, uspavala
 hipoglikemiki, antidiabetiki
-hypericum perforatum, šentjanževka
 imipraminu podobni antidepresivi, imipraminu sorodni antidepresivi, imipraminski triciklični antidepresivi
 imunosupresivi, učinkovine za zaviranje imunske odzivnosti
 induktorji cyp450, aktivatorji cyp450
@@ -95,42 +147,89 @@ inhibitorji ponovnega privzema noradrenalina, zaviralci ponovnega privzema norad
 inhibitorji proteaze hiv, zaviralci proteaze hiv, hiv proteazni inhibitorji
 insulin aspart s protaminom, s protaminom kristalizirani insulin aspart
 inzulin, insulin
+ipratropijev bromid, ipratropij
 izmenjevalci žolčnih kislin, adsorbenti žolčnih kislin
 izoprenalin, izoproterenol
 izopropilalkohol, izopropanol
 izosorbid mononitrat, izosorbidmononitrat
+jod, kalijev jodid
 jodirani povidon, povidon-jod, jodiran povidon
+kalcij in askorbinska kislina, kalcij; vitamin c
+kalcijev pantotenat, pantetonat
 kalcijevi antagonisti, zaviralci kalcijevih kanalov, zaviralci kalcijevih kanalčkov, blokatorji kalcijevih kanalov, inhibitorji kalcijevih kanalov
+kalijev diklofenakat, natrijev diklofenakat, diklofenak, dietilamonijev diklofenakat
 kapecitabin, kapacitabin
 karbapenemi, karbapenemski antibiotiki
 kardiodepresivna zdravila, kardiosupresivna zdravila
+ketotifen, ketotifen (lokalno)
 kinoloni, kinolonski antibiotiki
 kinupristin, kvinupristin
+klindamicin, klindamicinfosfat
 klodronat, klodronska kislina
+klomifenijev citrat, klomifen
+klorheksidinijev diklorid, klorheksidinijev diglukonat, klorheksidin
+kodeinijev fosfat hemihidrat, kodein, kodeinijev fosfat seskvihidrat
 kofeinski napitki, kofeinske pijače
 kolestipol, holestipol
 kortikosteroidi, steroidi skorje nadledvičnice
-kortizol, hidrokortizon
+ksantini, ksantinski derivati
+ksilometazolin, ksilometazolinijev klorid
 kumarini, kumarinski derivati, derivati kumarina, kumarinski antikoagulansi, kumarinski antikoagulanti, dikumarolski antikoagulanti
 kvinidin, kinidin
 l-tiroksin, levotiroksin
+laktitol, laktitol monohidrat
+lerkanidipinijev klorid, lerkanidipin
+levocetirizin, levocetirizinijev diklorid
 levodopa, l-dopa
+levonorgestrel, norgestrel
+lidokainijev klorid, lidokain, lidokainijev klorid monohidrat
 linkozamidi, piranozidni antibiotiki
 list in cvet gloga, crataegi folium cum flore
-magnezijev citrat, magnezij (v obliki citrata)
+loperamid, loperamidijev klorid
+losartan, kalijev losartan, kalijev losartanat
+loteprednol, loteprednoletabonat
+magnezijev citrat, magnezij, magnezijeve soli, magnezijev sulfat
+mangan, mangan (ii)
+maprotilinijev klorid, maprotilin
 meflokin, meflokvin
+memantinijev klorid, memantin
+metamizol, natrijev metamizolat, natrijev metamizolat monohidrat
+metformin, metforminijev klorid
+metilkobalamin, vitamin b12, hidroksokobalamin, cianokobalamin
+metilprednizolon, metilprednizolonaceponat
+metoklopramid, metoklopramidijev klorid
+metoprolol, metoprololijev tartrat
+mianserin, mianserinijev klorid
+midazolam (sistemsko), midazolam
+mikofenolat mofetil, mofetil mikofenolat, mikofenolna kislina
+mikonazol, mikonazolijev nitrat
 mineralokortikosteroidi, mineralokortikoidi
+mometazon, mometazonfuroat
 moracizin, moricizin
+morfinijev sulfat, morfin
+nadroparin, kalcijev nadroparinat
+nafazolinijev nitrat, nafazolin (lokalno), nafazolin
 nassa, noradrenergični in selektivni serotoninski antidepresivi, nassas
+natrijev aurotiomalat, aurotiomalat
+natrijev aurotiosulfat, aurotiosulfat
+natrijev dalteparinat, dalteparin
+natrijev enoksaparinat, enoksaparin
+natrijev fusidat, fusidna kislina
+natrijev naproksenat, naproksen
+natrijev pravastatinat, pravastatin
+natrijev varfarinat, varfarin
 ndri, zaviralci ponovnega privzema noradrenalina in dopamina, ndris
 nedihidropiridinski blokatorji kalcijevih kanalov, nedihidropiridinski inhibitorji kalcijevih kanalov
+neomicinijev sulfat, neomicin
 neselektivni zaviralci adrenergičnih receptorjev beta, neselektivni blokatorji beta, neselektivni beta blokatorji, neselektivni zaviralci beta
-niacin, nikotinska kislina
-niacinamid, nikotinamid
+niacin, vitamin b3, nikotinska kislina, nikotinamid
 nitroglicerin, gliceriltrinitrat
 nizoldipin, nisoldipin
+noretisteron, noretisteronacetat
 nsar, nesteroidni antirevmatiki, nsaid, nesteroidna protivnetna zdravila, nesteroidni antiflogistiki
 odvajala, laksativi
+oksikodonijev klorid, oksikodon
+oksimetazolin, oksimetazolinijev klorid
 oljni izvleček česnove čebulice, alii sativi bulbi extractum oleosum
 opiati, opiatni analgetiki
 opioidni agonisti, agonisti opioidov
@@ -141,47 +240,78 @@ oralni antikoagulanti, peroralni antikoagulanti
 organski nitrati, donorji dušikovega oksida
 parasimpatikomimetiki, parasimpatikomimetična zdravila, parasimpatomimetiki
 penicilinski antibiotiki, penicilini
+perheksilin, perheksilinov maleat
 peroralna hormonska kontracepcija, peroralni hormonski kontraceptivi, peroralni kontraceptivi, peroralna kontracepcijska sredstva, peroralna kontracepcija
 peroralni kumarinski antikoagulanti, oralni kumarinski antikoagulanti
 peroralni železovi pripravki, peroralni pripravki železa
+pilokarpinijev klorid, pilokarpin
+piridoksamin, vitamin b6, piridoksin, piridoksal
 plod navadne kumine, navadna kumina, plod
 polienski antibiotiki, polienski antimikotiki
 polimiksin e, kolistin
-prasteron, dehidroepiandrosteron
+prasteron, prasteronenantat, dehidroepiandrosteron
 pripravki s platino, platinove spojine
 pripravki z litijem, litij
+progvanil, progvanilijev klorid
+proksimetakain, proksimetakainijev klorid
+promazinijev klorid, promazin
+propafenonijev klorid, propafenon
+propranolol, propranololijev klorid
 prostaglandin e1, alprostadil
 protituberkulozna zdravila, tuberkulostatiki, antituberkulotiki
+psevdoefedrinijev klorid, psevdoefedrinijev sulfat, psevdoefedrin
+raloksifen, raloksifenijev klorid
 rastni hormon, somatropin
 reserpin, rezerpin
+retinol, retinilpalmitat
 rifampicin, rifampin
+risedronska kislina, natrijev risedronat
 rožni koren, rhodiola rosea
 rumeni železov oksid (e172), e172, rumeni železov oksid
 rumex spp., sine crispus et obtusifolius, zel kislice
 sari, saris, serotoninski antagonisti in zaviralci ponovnega privzema serotonina
+selegilinijev klorid, selegilin
 selektivni zaviralci receptorjev beta 1, blokatorji receptorjev beta 1
+sibutramin, sibutraminijev klorid monohidrat, sibutraminijev klorid
 simpatikomimetični amini, simpatomimetiki, simpatomimetični amini, simpatikomimetiki
 sistemski fungicidi, sistemski antimikotiki
 snri, snris, zaviralci ponovnega privzema serotonina in noradrenalina
+solifenacin, solifenacinijev sukcinat
+sotalol, sotalolijev klorid
 ssre, selektivni spodbujevalci ponovnega privzema serotonina, ssres
 ssri, selektivni zaviralci ponovnega privzema serotonina, selektivni zaviralci privzema serotonina, ssris
 steroidna kontracepcijska sredstva, hormonski kontraceptivi, hormonska kontracepcija
 stimulantna odvajala, kontaktna odvajala
 sulfametoksazol in trimetoprim, trimetoprim in sulfametoksazol
 sulfonamidni antidiabetiki, sulfonamidni hipoglikemiki, sulfonilsečnine, sulfonilurea
+tamsulozinijev klorid, tamsulozin
+tenofovirdizoproksil, tenofovir
+teofilin, teofilin s podaljšanim sproščanjem
+terbinafinijev klorid, terbinafin
+testosteron undekanoat, testosteron
 tetraciklini, tetraciklinski antibiotiki
+tetrizolin, tetrizolinijev klorid
+tiaminijev nitrat, tiamin, tiaminijev klorid
+tianeptin, natrijev tianeptinat
+tiklopidinijev klorid, tiklopidin
+tiotropijev bromid, tiotropij
 tirostatiki, tireostatiki
+tolterodinijev tartrat, tolterodin
+tramadolijev klorid, tramadol
 trankvilizanti, pomirjevala, sedativi
+trimetazidin, trimetazidinijev klorid
+trospijev klorid, trospij
 uv-b terapija, zdravljenje z uv-b
 učinkovine za spodbujanje imunske odzivnosti, imunostimulansi
+valprojska kislina, valproat, natrijev valproat
+verapamil, verapamilijev klorid
 verbenae herba, zel navadnega sporiša
 vezalci fosfatov, fosfatni vezalci
-vitamin b2, riboflavin, riboflavinum
+vitamin b2, riboflavin, natrijev riboflavin fosfat, riboflavinum
 vitamin c, e300, askorbinska kislina
 vitamin d in njegove oblike, vitamin d, steroli vitamina d
 vitamin d2, ergokalciferol
 vitamin k1, filokinon, fitonadion, fitomenadion
-warfarin, varfarin
 zaviralci agregacije trombocitov brez heparina, zaviralci agregacije trombocitov, zaviralci trombocitov, antiagregacijska zdravila
 zaviralci encima angiotenzinske konvertaze (ace), zaviralci encima angiotenzinske konvertaze, inhibitorji ace, zaviralci angiotenzinske konvertaze (ace), zaviralci ace, zaviralci angiotenzinske konvertaze, zaviralci angiotenzin-konvertaze, ace inhibitorji
 zaviralci izločanja želodčne kisline, ppis, zaviralci protonske črpalke, inhibitorji protonske črpalke
@@ -211,7 +341,9 @@ zel ozkolistnega trpotca, plantaginis lanceolatae herba
 zel pravega pelina, absinthii herba
 zlato, parenteralno, zlato, i.v.
 zmerni inhibitorji cyp450 3a4, zmerni zaviralci cyp3a4, zmerni inhibitorji citokroma p450 3a4
+zolpidem, zolpidemijev tartrat
 ß2 agonisti, agonisti adrenergičnih receptorjev beta 2
 česen, allium sativum
+šentjanževka, suhi ekstrakt zeli šentjanževke (8-9 : 1)
 železo, železove soli, pripravki z železom
 železov (ii) sulfat, železov sulfat

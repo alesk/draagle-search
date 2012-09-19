@@ -1,0 +1,32 @@
+<!-- return drugs containing ingredient from query -->
+  <requestHandler name="/ingredient" class="solr.SearchHandler">
+    <!-- default values for query parameters can be specified, these
+         will be overridden by parameters in the request
+      -->
+     <lst name="defaults">
+       <str name="defType">edismax</str>
+       <int name="rows">10</int>
+       <str name="echoParams">explicit</str>
+
+       <!-- deafult operator -->
+       <str name="q.op">AND</str>
+
+       <!-- "query field" -->
+       <str name="qf">ingredients^2 known_as</str>
+
+       <!-- look only among drugs -->
+       <str name="fq">type:drug</str>
+
+       <!-- export results in -->
+       <str name="wt">json</str>
+
+       <!-- fields to return -->
+       <str name="fl">name,id,type,atc,ingredients,known_as,rezim_izdaje,is_proxy</str>
+
+       <!-- faceting -->
+       <str name="facet">true</str>
+
+    </lst>
+
+
+    </requestHandler>

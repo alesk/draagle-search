@@ -107,6 +107,25 @@
     <fieldType name="tdate" class="solr.TrieDateField" omitNorms="true" precisionStep="6" positionIncrementGap="0"/>
 
 
+    <fieldType name="ingredient_string" class="solr.TextField" positionIncrementGap="100">
+      <analyzer type="index">
+        <tokenizer class="solr.StandardTokenizerFactory"/>
+        <filter class="solr.StopFilterFactory" ignoreCase="true" words="${solr.solr.home}/common/stopwords_sl.txt"/>
+        <filter class="solr.StandardFilterFactory"/>
+        <filter class="solr.LowerCaseFilterFactory" />
+        <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+        <filter class="solr.SynonymFilterFactory" synonyms="${solr.solr.home}/common/ingredient_synonyms.txt" ignoreCase="true" expand="true"/>
+      </analyzer>
+      <analyzer type="query">
+        <tokenizer class="solr.StandardTokenizerFactory"/>
+        <filter class="solr.StopFilterFactory" ignoreCase="true" words="${solr.solr.home}/common/stopwords_sl.txt"/>
+        <filter class="solr.StandardFilterFactory"/>
+        <filter class="solr.LowerCaseFilterFactory" />
+        <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+      </analyzer>
+    </fieldType>
+
+
 <!-- A text field with defaults appropriate for Slovene: it
          tokenizes with StandardTokenizer, removes Slovene stop words
          (stopwords_sl.txt), down cases, protects words from protwords.txt, and

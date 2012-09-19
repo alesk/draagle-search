@@ -22,7 +22,7 @@ export JAVA_OPTIONS="-server \
                      -XX:+UseCMSCompactAtFullCollection \
                      -XX:+UseParNewGC \
                      -XX:+PrintGCDetails \
-                     -Xms512m -Xmx1024m \
+                     -Xms128m -Xmx256m \
                      -Duser.language=sl \
                      -Duser.country=SI \
                      -Dsolr.solr.home=$SOLR_HOME \

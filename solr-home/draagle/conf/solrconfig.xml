@@ -4,6 +4,7 @@
 <!ENTITY handler_browse SYSTEM "../../common/handlers/browse.xml">
 <!ENTITY handler_spellcheck SYSTEM "../../common/handlers/spellcheck.xml">
 <!ENTITY handler_select SYSTEM "../../common/handlers/select.xml">
+<!ENTITY handler_ingredient SYSTEM "../../common/handlers/ingredient.xml">
 <!ENTITY handler_admin  SYSTEM "../../common/handlers/admin.xml">
         ]> 
 
@@ -16,14 +17,15 @@
 
 
 
-  <requestHandler name="/update" class="solr.XmlUpdateRequestHandler" />
-  <requestHandler name="/update/javabin" class="solr.BinaryUpdateRequestHandler" />
+  <requestHandler name="/update" class="solr.UpdateRequestHandler" />
+  <requestHandler name="/update/javabin" class="solr.UpdateRequestHandler" />
   <requestHandler name="/update/csv" class="solr.CSVRequestHandler" startup="lazy" />
-  <requestHandler name="/update/json" class="solr.JsonUpdateRequestHandler"/>
+  <requestHandler name="/update/json" class="solr.UpdateRequestHandler"/>
 
   &handler_autocomplete;
   &handler_browse;
   &handler_spellcheck;
+  &handler_ingredient;
   &handler_select;
   &handler_admin;
 

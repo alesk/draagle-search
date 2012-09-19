@@ -1,0 +1,23 @@
+* Tasks
+** DONE Start new org file
+   CLOSED: [2012-09-17 Mon 10:14]
+   - State "DONE"       from "TODO"       [2012-09-17 Mon 10:14]
+   
+* Introduction
+
+Link to great org tutorial [[http://orgmode.org/worg/org-tutorials/orgtutorial_dto.html][org-mode tutorial]].
+
+** TODO: solr query
+
+
+
+** Installation
+
+** Taable example
+
+| Name        | Phone       | Age | skype  | substance |
+|-------------+-------------+-----+--------+-----------|
+| Peter[fn:1] | 031 543 123 |  17 | peterk | C_MAX     |
+| Ana[fn:1]   | 041 321 124 |  29 |        |           |
+
+[fn:1] Some original footnote

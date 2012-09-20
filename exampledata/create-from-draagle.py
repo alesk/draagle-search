@@ -20,16 +20,21 @@ INGREDIENT = 30
 def filter_by_sort(coll, sort):
   return filter(lambda x:x['sort'] == sort, coll)
 
-def remove_after(text, chars_to_strip_from):
+def remove_after(text, chars_to_strip_from, words_to_leave=2):
   """
   >>> remove_after("Extract korenine (Veriana oficialis)", ",;(")
-  'Extract korenine '
+  'Extract korenine'
+  >>> remove_after("Zelezov (III) oksid", ",;(")
+  'Zelezov (III) oksid'
   """
   results=[text]
   for c in chars_to_strip_from:
     pos = text.find(c)
     if pos != -1:
-      results.append(text[0:pos])
+      stripped = strip(text[0:pos])
+      # don't cut if there is too little left
+      if len(stripped.split(' ')) >= words_to_leave:
+        results.append(text[0:pos])
   return strip(min(results))
 
 def drug_to_solr(drug_id):

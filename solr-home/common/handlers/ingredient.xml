@@ -5,7 +5,7 @@
       -->
      <lst name="defaults">
        <str name="defType">edismax</str>
-       <int name="rows">10</int>
+       <int name="rows">100</int>
        <str name="echoParams">explicit</str>
 
        <!-- deafult operator -->
@@ -19,6 +19,9 @@
 
        <!-- export results in -->
        <str name="wt">json</str>
+
+       <!-- vrstni red -->
+       <str name="sort">is_proxy asc,name asc</str>
 
        <!-- fields to return -->
        <str name="fl">name,id,type,atc,ingredients,known_as,rezim_izdaje,is_proxy</str>

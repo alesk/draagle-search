@@ -20,6 +20,18 @@ INGREDIENT = 30
 def filter_by_sort(coll, sort):
   return filter(lambda x:x['sort'] == sort, coll)
 
+def remove_after(text, chars_to_strip_from):
+  """
+  >>> remove_after("Extract korenine (Veriana oficialis)", ",;(")
+  'Extract korenine '
+  """
+  results=[text]
+  for c in chars_to_strip_from:
+    pos = text.find(c)
+    if pos != -1:
+      results.append(text[0:pos])
+  return strip(min(results))
+
 def drug_to_solr(drug_id):
     drug = db.drug_drug.find_one(drug_id)
     drug_id = drug['_id']
@@ -48,10 +60,11 @@ def drug_to_solr(drug_id):
 
     for i in ingredients:
       for name in known_as[i['name']]:
+        name_ = strip(remove_after(name, "(,;-"))
         yield {
           'type':'ingredient', 
-          'id':md5(name.encode('utf-8')).hexdigest(),
-          'name':name
+          'id':md5(name_.encode('utf-8')).hexdigest(),
+          'name':name_
           }
 
     for name in indications:
@@ -130,7 +143,6 @@ def solr_import():
   WANTED_TYPES=['ingredient', 'drug']
 
   for drug_id, drug_name in get_drug_proxy_list():
-    break
     print drug_id, drug_name
     docs = filter(lambda x: x['type'] in WANTED_TYPES, drug_to_solr(drug_id))
     json_to_send = "[%s]" % ",\n".join([json.dumps(doc) for doc in docs])

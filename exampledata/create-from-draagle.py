@@ -4,6 +4,7 @@
 from pymongo import Connection
 from string import strip
 from hashlib import md5
+import urllib, urllib2
 import codecs
 import json
 
@@ -19,7 +20,8 @@ INGREDIENT = 30
 def filter_by_sort(coll, sort):
   return filter(lambda x:x['sort'] == sort, coll)
 
-def populate_drug(drug, files):
+def drug_to_solr(drug_id):
+    drug = db.drug_drug.find_one(drug_id)
     drug_id = drug['_id']
     atc_id = drug['atc']
     atc_name = None
@@ -27,11 +29,11 @@ def populate_drug(drug, files):
     if atc_id:
       atc = db.drug_atc.find_one({'$or':[{'_id':atc_id}, {'name':atc_id}]})
       atc_name = strip("%s %s" % (atc_id, atc.get('name', '')))
-      files['atc'].append({
+      yield {
         'type':'atc', 
         'id':atc_id,
         'name': atc_name
-        })
+        }
 
     facts = list(db.drug_fact.find({'drugs':drug_id}))
 
@@ -46,31 +48,31 @@ def populate_drug(drug, files):
 
     for i in ingredients:
       for name in known_as[i['name']]:
-        files['ingredients'].append({
+        yield {
           'type':'ingredient', 
           'id':md5(name.encode('utf-8')).hexdigest(),
           'name':name
-          })
+          }
 
     for name in indications:
-      files['indications'].append({
+      yield {
         'type':'indication', 
         'id':md5(name.encode('utf-8')).hexdigest(),
-        'name':name })
+        'name':name }
 
     if manufacturer:
-      files['parties'].append({
+      yield {
         'type':'manufacturer', 
         'id':md5(manufacturer.encode('utf-8')).hexdigest(),
-        'name':manufacturer })
+        'name':manufacturer }
 
     if idzp:
-      files['parties'].append({
+      yield {
         'type':'idzp', 
         'id':md5(idzp.encode('utf-8')).hexdigest(),
-        'name':idzp })
+        'name':idzp }
 
-    files['drugs'].append({
+    yield {
       'type':'drug', 
       'id':drug['_id'],
       'name':drug['name'],
@@ -85,9 +87,8 @@ def populate_drug(drug, files):
       'rezim_izdaje':drug.get('rezim_izdaje', None),
       'trigonik':drug.get('trigonik', None),
       'product_type':drug.get('product_type', "8")
-      })
-
-
+      }
+    
 def populate():
 
   files = {
@@ -117,6 +118,43 @@ def export():
       fl.write("\n,".join([json.dumps(o) for o in objects]))
       fl.write("]\n");
 
+def get_drug_proxy_list(criteria = {}):
+    return [ (d['_id'], d['name']) for d in 
+        db.drug_drug.find(criteria, fields=('_id', 'name')) ]
+
+def report_solr_error(response_json):
+  response = json.loads(response_json)
+  print response['responseHeader']
+
+def solr_import():
+  WANTED_TYPES=['ingredient', 'drug']
+
+  for drug_id, drug_name in get_drug_proxy_list():
+    break
+    print drug_id, drug_name
+    docs = filter(lambda x: x['type'] in WANTED_TYPES, drug_to_solr(drug_id))
+    json_to_send = "[%s]" % ",\n".join([json.dumps(doc) for doc in docs])
+    report_solr_error(solr_send(json_to_send, options={'commit':'true'}))
+
+  report_solr_error(solr_send(None, options={'optimize':'true', 'wt':'json'}))
+
+    
+UPDATE_URL="http://localhost:8983/solr/draagle/update/json"
+def solr_send(payload, options={}):
+  url = "%s?%s" % (UPDATE_URL, urllib.urlencode(options))
+  print url
+  if payload:
+    solrReq = urllib2.Request(url, payload)
+  else:
+    solrReq = urllib2.Request(url)
+
+  solrReq.add_header("Content-Type", "text/json; charset=utf-8")
+  solrPoster = urllib2.urlopen(solrReq)
+  response = solrPoster.read()
+  solrPoster.close()
+  return response
+
 
 if __name__ == "__main__":
-  export()
+  #export()
+  solr_import()

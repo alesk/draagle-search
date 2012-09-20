@@ -15,18 +15,20 @@ fi
 
 SOLR_HOME=`pwd`/solr-home
 
+# removed options
+# -XX:+PrintGCDetails 
 export JAVA_OPTIONS="-server \
                      -XX:+UseConcMarkSweepGC \
                      -XX:+CMSClassUnloadingEnabled \
                      -XX:-CMSParallelRemarkEnabled \
                      -XX:+UseCMSCompactAtFullCollection \
                      -XX:+UseParNewGC \
-                     -XX:+PrintGCDetails \
                      -Xms128m -Xmx256m \
                      -Duser.language=sl \
                      -Duser.country=SI \
                      -Dsolr.solr.home=$SOLR_HOME \
                      -Djetty.port=$PORT \
+                     -Djava.util.logging.config.file=$SOLR_HOME/../logging.properties \
                      $JAVA_OPTIONS"
 echo JAVA_OPTIONS is $JAVA_OPTIONS
 

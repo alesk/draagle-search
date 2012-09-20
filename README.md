@@ -18,7 +18,13 @@ Openup browser and type in the address bar to get all Aspirins:
 
     http://localhost:8983/solr/draagle/ac?q=Asp*
 
+## Deploying solr
 
+For logging, copy `logging.properties` to `$SOLR_HOME` and append 
+
+    `-Djava.util.logging.config.file=logging.properties`
+
+to `$JAVA_OPTIONS` in `run-solr.sh`.
 
 ## Faceting
 

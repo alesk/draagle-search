@@ -1,24 +1,41 @@
+Behçetov uveitis
+Candida
+Chlamydia trachomatis
+Epidermophyton
+Gram negativne bakterije
+Gram pozitivne bakterije
+Haemophilus influenzae
+Helicobacter pylori
+Herpes simplex
+Klebsiella pneumoniae
+Moraxella Branchamella
+Ménièrova bolezen
+Neisseria gonorrhoeae
+Pasteurella multocida
+Shwachman-Diamondov sindrom
+Staphylococcus
+Staphylococcus aureus
+Streptococcus
+Trichomonas vaginalis
 abdominalne in  v kombinaciji z metronidazolom ali klindamicinom
 abnormalna oblika semenčic
 abscesi
+absence
 abstinenčni sindrom
 acne vulgaris
 addisonova bolezen
 adneksitis
+adrenalektomiji
 adrenogenitalni sindrom
 aerofagija
-shizofrenije
 afte
 aftozni stomatitis
 agitacija
+agorafobija
+agresivnost
 akne
 akromegalija
-keratoza
 aktivna imunizacija
-artritis
-uveitis
-juvenilni artritis
-ulcerozni kolitis
 akutane zavrnitvene reakcije
 akuten psihomotorični nemir
 akutna agitiranost
@@ -44,15 +61,12 @@ akutna poškodba hrbtenjače
 akutna radikulalgija
 akutna retencija urina
 akutna slabost
-akutna slabost in bruhanje, ki sta posledici zdravljenja s citostatiki in radioterapijo
-akutna stanja po odtegnitvi alkohola
 akutna tromboza hemoroidov
 akutna vaginalna kandidoza
 akutna venska tromboza
 akutna zastrupitev z zaužitim strupom
 akutna zastrupitev z zaužitim zdravilom
 akutne bolezni dihal
-akutne boleče vnetne okužbe žrela, nosu ali ušes
 akutne bolečine
 akutne bolečine, povezane s prehladom
 akutne eksacerbacije cistične fibroze
@@ -153,8 +167,9 @@ analne ragade
 analne razpoke
 analni ekcem
 androgenska plešavost
+anemija
 anemija pri nedonošenčkih
-anemija zaradi motenje absorbcije
+anemija zaradi motnje absorbcije
 anemija zaradi povečane porabe železa
 anemija zaradi zvečane izgube železa
 angina
@@ -162,14 +177,19 @@ angina pektoris
 angioimunoblastni maligni limfom celic t
 angionevrotični edem
 ankilozirajoči spondilitis
+anksiozna motnja
 anksiozna stanja
 anksiozno-depresivna stanja
 anksioznost
 anogenitalni pruritus
 apatičnost
+apopleksija
+apopleksiji
+aritmije
 aritmije pri tireotoksikozi
 arterijska hipertenzija
 artralgija
+artritis
 artritisi pri vezivnotkivnih boleznih
 artroskopija
 artroza
@@ -180,6 +200,10 @@ aspiracijska pljučnica
 aspiracijski pnevmonitis
 astma
 astma
+astma ob naporu
+astme
+ateroskleroza
+aterosklerozi možganskega žilja
 aterotrombotični dogodki
 atipična pljučnica
 atopijski dermatitis
@@ -196,6 +220,7 @@ avtoimuni kronični aktivni hepatitis
 avtoimunska hemolitična anemija
 b-celična kronična limfocitna levkemija
 bacilonoštvo salmonele
+baclili
 bakteriemija
 bakteriemije
 bakterijska pljučnica
@@ -218,8 +243,11 @@ benigna hiperplazija prostate
 benigna razjeda na želodcu
 benigne peptične lezije
 benigne razjede želodca
+benigni hiperplaziji prostate
 beriberi
 berilioza
+betaklamaza
+bipolarna motnja
 bipolarne afektivne motnje
 bipolarne motnje razpoloženja
 blag artritis kolena
@@ -252,6 +280,7 @@ blage artritisne bolečine
 blage do srednje hude bolečine
 blage do zmerne bolečine
 blage do zmerno hude bolečine
+blage do zmerno persistentne astme
 blage in srednje hude bolečine
 blage in zmerno hude bolečine
 blage motnje spanja
@@ -266,6 +295,7 @@ blage težave z dihali
 blage težave z dihalnimi potmi
 blage žolčne težave
 blagi gastroezofagealni refluks
+blagi persistentni astmi pri otrocih
 blago do zmerno kronično srčno popuščanje
 blago kožno vnetje
 blago vnetje kože
@@ -299,6 +329,7 @@ bolezni povezane z alergijami
 bolezni s povečanim izločanjem želodčne kisline
 bolezni spodnjih dihalnih poti (podporno zdravljenje)
 bolezni srca in ožilja
+bolezni srca in ožilja
 bolezni, ki jih spremlja nespečnost
 boleča in/ali vnetna stanja v ginekologiji
 boleča menstruacija
@@ -311,6 +342,7 @@ boleče noge
 boleče otekline
 boleče požiranje
 boleče požiranje pri vnetem žrelu
+boleče uriniranje
 boleče vnetje ušes, grla in nosu
 boleči mišični spazmi
 bolečina in vnetje pri revmatoidnem artritisu
@@ -455,6 +487,7 @@ centralna nevropatska bolečina
 centralni diabetes insipidus
 centralni mišični spazmi
 centralno pogojene motnje dihanja med spanjem
+cepljenje
 cerebralna toksoplazmoza
 cerebrovaskularna insuficienca
 cervicitis
@@ -466,17 +499,21 @@ ciklična mastalgija
 ciklična mastopatija
 ciroza jeter
 cistitis
+cistična fibroza
 cistični tumor aponevroze
 cistični tumor tetive
 cistoidni makularni edem po operaciji katarakte z vstavitvijo leče
 cistopielitis
 cistoskopija sečnice
+citostatiki
+citotoksična kemoterapija
 crohnova bolezen
 davica
 degeneracija rumene pege v starosti
 degenerativne bolezni sklepov
 degenerativne motnje možganov in živčevja
 degenerativne revmatske bolezni
+degenerativne sklepne bolezni
 degenerativni ekcem
 degenerativni revmatizem
 degenerativni revmatizem sklepov in hrbtenice
@@ -485,10 +522,12 @@ dekubitus brez znakov vnetja zaradi pritiska zobne proteze
 dekubitusna rana zaradi zobne proteze
 dekubitusni ulkus
 delirium tremens
+demenca
 depresija
 depresija ali anksioznost
 depresija in/ali anksioznost
 depresija s tesnobo
+depresivna stanja
 depresivne epizode
 depresivne motnje
 depresivne motnje
@@ -497,17 +536,22 @@ dermatološke bolezni
 dermatomikoze
 dermatomiozitis
 dermatoze
+desenzibilizacijsko zdravljenje
 detritivni dermatitis
 dezinfekcija kože
+diabetes
 diabetes mellitus
 diabetesna gastropareza
 diabetična nefropatija
+diabetična periferna nevropatija
 diabetična retinopatija
+diabetični komi
 diagnostična uporaba pri supresijskem testu ščitnice
 diagnostične preiskave v predelu trebuha
 diagnostični bronhialni testi
 diagnostično dokazovanje erektilnih motenj
 diagnostično testiranje hiperfunkcije nadledvičnih žlez
+diareje
 dieta pri zvišanih lipidih v krvi
 dieta z veliko vsebnostjo prehrambenih konzervansov
 difuzen posteriorni horoiditis
@@ -533,19 +577,8 @@ dispepsija
 dispeptične težave
 dispeptični simptomi
 dnevni in nočni simptomi sezonskega alergijskega rinitisa
-shujševalnih dietah
-čiščenju organizma
-zdravljenju z antibiotiki
-benigni hiperplaziji prostate
-blage do zmerno persistentne astme
-diareje
-gripoznih obolenj
-hiperholesterolemije
-prehladnih obolenj
-sindroma iritabilnega kolona
-nadprekatna tahikardija
-simptomatska prekatna tahikardija
-simptomatske motnje prekatnega ritma
+dojenje
+dojenčki
 dolgotrajna agresija pri bolnikih z zmerno do hudo alzheimerjevo demenco
 dolgotrajna agresija pri motnjah vedenja pri otrocih nad 5 let s podpovprečnimi umskimi sposobnostmi
 dolgotrajna potovanja
@@ -555,9 +588,6 @@ dolgotrajno zdravljenje z antagonisti folne kisline
 dolgotrajno zdravljenje z antikonvulzivi
 določene hude oblike hude depresije
 doma pridobljena pljučnica
-bolezni srca in ožilja
-prekomerne telesne mase
-sladkorne bolezni
 draženje h kašlju
 draženje pri vnetem žrelu
 draženje žrela
@@ -569,6 +599,7 @@ druge ekstrapiramidne motnje gibanja
 drugi artritisi
 duševna napetost
 duševne obremenitve
+edem veznice
 edem veznice pri vnetju oči
 edem zaradi kongestivne srčne odpovedi
 edem zaradi možganskega tumorja
@@ -596,6 +627,7 @@ ekstrapiramidni simptomi zaradi zdravil
 ekstrinzični alergijski alveolitis
 emfizem
 empiem
+endogen rastni hormon
 endogeni ekcem
 endogeni pruritus
 endokarditis
@@ -604,6 +636,7 @@ endometritis
 endoskopija
 endoskopske raziskave
 endoskopski kirurški posegi v nosu
+endoskopski poseg
 endoskopski poseg nosu in žrelne votline
 endoskopsko dokazan erozivni refluksni ezofagitis
 enteritis
@@ -619,7 +652,9 @@ epiduralni blok
 epikondilitis
 epilepsija
 epileptični status
+epileptičnih napadov v povezavi z lennox-gastautovim sindromom
 epistaksa
+epizoda bipolarne motnje
 epizode hude depresije
 epizode velike depresije
 epizode velike depresije pri bipolarni motnji
@@ -649,9 +684,10 @@ ezofagitis
 faringitis
 feokromocitom
 fibrilacija
+fibromiomatozi maternice
 fibromiomi maternice
 fibrozitis
-postmenopavza
+fizični napori
 flatulenca
 flebitisi po injekcijah in infuzijah
 folikularna keratoza
@@ -670,6 +706,7 @@ fusarioza odporna na amfotericin b
 galaktoreja
 garje vključno s sekundarno piodermalno infekcijo
 garje, ki jih povzroča sarcoptes scabiei
+gastrektomija
 gastritis
 gastrična hiperacidnost
 gastroezofagealni refluks
@@ -681,8 +718,10 @@ generalizirane distonije
 generalizirane okužbe z herpes simplex
 generalizirani epileptični napadi
 generalizirani napadi epilepsije
+generaliziranih napadov epilepsije
 genitalna endometrioza
 genitalna kandidoza
+genitalni herpes
 gigantocelularni arteritis
 ginekološke bakterijske okužbe
 ginekološke bolečine
@@ -690,20 +729,25 @@ ginekološke okužbe
 gingivitis
 glavkom odprtega zakotja
 glavkom z odprtim zakotjem
+glavkom z odprtim zakotjem
+glavkom z zaprtim zakotjem
 glavobol
 glavobol pri napadih migrene
 glavobol pri prehladu in gripi
 glavobol v rafalih
+glivice
+glivice
 glivična obolenja
 glivična obolenja kože
 glivične infekcije kože
+glivične okužbe
 glivične okužbe kože
 glivične okužbe lasišča
 glivične okužbe nohtov
-glivične okužbe
 glivični keratitis
 globoka venska tromboza
 globoke okužene rane
+glomerulonefritis
 glomerulonefritis pri nodoznem poliarteritisu
 gnojni meningitis
 gnojni mozolji
@@ -715,14 +759,22 @@ gonoroični uretritis
 goodpasturjev sindrom
 gripa
 gripozna obolenja
+gripoznih obolenj
+grlo
 grozeča diabetična nefropatija pri bolnikih s sladkorno boleznijo tipa 2 in hipertenzijo
 grozeči splav
 habitualna obstipacija
 habitualni splav
+helicobacter pylori
 hematološke bolezni
 hematomi
+hematuriji
+hemeroidi
 hemoroidi
 henoch-schönleinova purpura
+hepatitis
+hepatitis b
+hepatitis c
 hepatitis s holestaznim sindromom
 hepatitis zaradi herpes simplex
 herpes zoster
@@ -737,15 +789,14 @@ hiperacidnost
 hiperamoniemija
 hiperemija pri vnetju oči
 hiperfosfatemija
-hiperfosfatemije
 hiperholesterolemija
-hiperholesterolemije
 hiperkalcemija
 hiperkalciemija
 hiperkaliemija
 hiperkeratotične dermatoze
 hiperkeratoza na dlaneh in stopalih
 hiperkinetična stanja z agitacijo
+hipermenoreji
 hiperparatiroidizem
 hiperplazija endometrija
 hiperprolaktinemija
@@ -755,17 +806,18 @@ hipertiroza
 hipertrigliceridemija (hiperlipoproteinemija tipa iv in v, zdravilo prve izbire)
 hipertrofična obstruktivna kardiomiopatija
 hiperurikemija
-hipofosfatemični rahitis in osteomalacija
 hipofosfatemični rahitis
+hipofosfatemični rahitis in osteomalacija
 hipogonadizem
 hipokaliemija
-hipokaliemije
 hipokaliemične motnje srčnega ritma
 hipokaliemične živčnomišične motnje
 hipomanična motnja
 hipoparatiroidizem
 hipostatski dermatitis
 hipotiroza
+hipovitaminoza A
+hipovitaminoza D
 hipovitaminoza a
 hipovitaminoza b
 hipovitaminoza d
@@ -780,7 +832,9 @@ homozigotna družinska sitosterolemija
 horeatični gibi
 horioiditis
 horioretinitis
+hormonske motnje
 hormonske spremembe pri ženskah
+horoiditis
 hrapava koža
 hripavost
 hud aktivni ankilozirajoči spondilitis
@@ -851,6 +905,7 @@ idiopatično nižja rast pri otrocih
 idiopatska kronična urtikarija
 idiopatska menoragija
 idiopatska parkinsonova bolezen
+idiopatskem nefrotičnem sindromu
 idiopatski hipoparatiroidizem
 ihtiotične bolezni
 ihtioza
@@ -863,6 +918,7 @@ infekcije kože
 infekcije ustne votline
 infektivne driske
 inhalacijski vranični prisad
+insuficienca skorje nadledvične žleze
 insuficienca skorje nadledvične žleze
 insuficienca skorje nadledvičnih žlez
 intersticijska pljučnica
@@ -887,7 +943,6 @@ izboljšanje presnove maščob
 izboljšanje psihofizičnega počutja
 izboljšanje splošnega počutja
 izboljšanje vzdržljivosti in moči
-karcinoma endometrija
 izcedek iz nosu
 izguba apetita
 izguba sluha
@@ -906,7 +961,6 @@ izpostavljenost prostim radikalom
 izpostavljenost stresu
 izpuščaj
 izraziti znaki androgenizacije pri ženskah
-izrazito pomankanje endogenega rastnega hormona pri odraslih
 izsušena koža
 izsušena nosna sluznica
 izsušenost sluznice ust in žrela
@@ -924,19 +978,20 @@ jetrni edem
 jodna zaščita po jederski nesreči
 jutranji kašelj značilen za kadilce
 juvenilna hipertiroza
+juvenilni artritis
 juvenilni idiopatični artritis
 juvenilni idiopatični kronični poliartritis
 juvenilni idiopatski artritis
 juvenilni kronični artritis
 juvenilni kronični idiopatični artritis
 kadilci
+kajenje
 kalcificirane zobne obloge
 kalcifikacija mehkih tkiv
 kanalikulitis
 kandidemija
 kandidiaza kože
 kandidoza
-kandidoze
 kandidozne okužbe
 kandidozni balanitis
 kandidurija
@@ -945,6 +1000,7 @@ kapsulitis
 kapsulitis ramena
 karbunkel
 karcinom materničnega vratu
+karcinoma endometrija
 kardiovaskularna umrljivost pri klinično stabilnih bolnikih z nedavnim miokardnim infarktom
 kardiovaskularne bolezni pri bolnikih s tirotoksikozo
 kardioverzija
@@ -955,18 +1011,21 @@ keloidi (lokalna uporaba)
 keratitis
 keratodermija
 keratokonjunktivitis
+keratoza
 kihanje
 kirurški ali diagnostični postopki
 kirurški poseg
 kirurški posegi na očesu
 kirurški posegi pri benigni hiperplaziji prostate
 kirurški posegi pri bolnikih z zmernimi do hudimi simptomi benigne hiperplazije prostate
+klamidija
 klinični simptomi pri benigni hiperplaziji prostate
 klinični znaki zastojnega srčnega popuščanja v prvih nekaj dneh po akutnem miokardnem infarktu
 koagulacija v zunajtelesnem sistemu v času hemodialize
 koagulacija v zunajtelesnem sistemu v času hemofiltracije
 kohleovestibularni sindrom
 kokcidioidomikoza
+koki
 kolagenozni kolitis
 kolcanje
 kolera
@@ -995,6 +1054,7 @@ kožne bolezni z izraženo zadebelitvijo poroženele plasti kože
 kožne mikoze
 kožne okužbe
 kožni presadki
+kožno vnetje
 kratkotrajna zaprtost
 kravroze vulve pri ženskah v postmenopavzalnem obdobju
 krepitev kognitivnih sposobnosti
@@ -1030,6 +1090,7 @@ kronične preležanine
 kronične psihotične motnje
 kronične rane
 kronične razjede
+kronične srčne insuficience
 kronične urtikarije
 kronične vnetne bolezni debelega črevesa
 kronične vnetne kožne bolezni z motnjo keratinizacije
@@ -1037,6 +1098,7 @@ kronični alergijski rinitis
 kronični atopični dermatitis
 kronični avtoimuni hepatitis
 kronični bakterijski prostatitis
+kronični bronhitis
 kronični bronhitis
 kronični dakriocistitis
 kronični dermatitis
@@ -1059,8 +1121,11 @@ kronični migrirajoči eritem
 kronični nealergični dermatitis
 kronični obstruktivni bronhitis
 kronični osteomielitis
+kronični pankreatitis
 kronični pielitis
 kronični sinusitis
+kronični sinuzitis
+kronični stabilni obremenitveni angini pektoris
 kronično gnojno vnetje srednjega ušesa
 kronično srčno popuščanje
 kronično srčno popuščanje pri bolnikih nad 60 let
@@ -1070,6 +1135,7 @@ kronično vnetje sklepov
 kronično vnetje srednjega ušesa
 kronično zaprtje
 krvaveče dlesni
+krvavitev
 krvavitev dlesni
 krvavitve iz dlesni
 krvavitve iz prebavil
@@ -1104,6 +1170,7 @@ ledvične bolezni pri bolnikih s hipertenzijo in sladkorno boleznijo tipa ii
 ledvične bolezni pri hipertenzivnih bolnikih s sladkorno boleznijo tipa 2 in začetno nefropatijo
 ledvični edem
 legionarska bolezen
+legionela
 lennoxov sindrom
 leno črevesje
 leptospiroza
@@ -1117,8 +1184,8 @@ lichen simplex
 lihen
 lihen ruber planus
 limfedem
+limfoblastna levkemija
 limfom
-limfomi
 listerioza
 lobarna pljučnica
 loefflerjev sindrom
@@ -1137,6 +1204,7 @@ lokalno napredovani rak prostate
 lokalno vnetje žrela
 lomljivi nohti
 lumbago
+lumbalgija
 lupus erythematodes chronicus discoides
 luskavica
 lymphogranuloma venereum
@@ -1147,12 +1215,14 @@ mala kirurgija poškodbe
 malarija
 maligni melanom
 maligno vnetje zunanjega ušesa
+malignom
 malignomi s sočasno zvečano resorpcijo kosti
 malignomi z osteolitičnimi zasevki in osteoporozo
 manifestna nediabetična glomerulna nefropatija
 manična epizoda bipolarne motnje
 manična motnja
 manične epizode
+maničnih epizod
 manjše odrgnine
 manjše opekline
 manjše operacijske rane
@@ -1213,6 +1283,7 @@ migrena
 migrenski glavobol
 migrenski glavoboli
 migrenski napadi z avro ali brez nje
+mikoplazme
 mikrobiološko onesnaženje opeklin
 mikrobiološko onesnaženje površinskih poškodb
 mikrobiološko onesnaženje vreznin
@@ -1225,7 +1296,6 @@ mišična prenapetost
 mišična udarnina
 mišična utrujenost
 mišične bolečine
-mišične bolečine zaradi poškodb
 mišične bolečine zaradi poškodbe
 mišične bolečine zaradi pretiranega telesnega napora
 mišični krči
@@ -1276,8 +1346,8 @@ mukozna kandidoza
 mukozne kandidoze
 multipla skleroza
 ménièrov sindrom
-blagi persistentni astmi pri otrocih
 nadomestna hormonska terapija
+nadprekatna tahikardija
 nadprekatna tahikardija
 nadprekatne aritmije
 nadprekatne motnje srčnega ritma z veliko prekatno frekvenco
@@ -1286,10 +1356,12 @@ nagnjenost k slabokrvnosti
 nahod
 naknadno kapljanje urina
 napad angine pektoris
+napad pirofosfatne artropatije
 napadi astme
 napadi epilepsije
 napadi obilnega izcedka iz nosu
 napadi, povezani z lennox gastautovim sindromom
+napadov, povezanih z lennox-gastautovim sindromom
 napaka nevralne cevi pri novorojenčkih
 napenjanje
 napetost
@@ -1356,6 +1428,7 @@ neinfekcijski alergijski konjunktivitis
 neinvazivna bronhopulmonalna kandidoza
 neinvazivne pljučne kandidoze
 nema miokardna ishemija
+nemieloidni malignom
 nemir
 nemirnost
 nenadna močna nuja po mokrenju
@@ -1372,6 +1445,7 @@ nerazpoloženje
 neredna in enolična prehrana
 nervoza
 nespečnost
+nespečnost
 nestabilna angina pektoris
 nestabilna koronarna srčna bolezen
 neugodni simptomi zaradi hrane in pijače
@@ -1380,6 +1454,7 @@ neuravnotežena prehrana
 neuravnotežena prehrana
 neurejen holesterol
 neurejena prebava
+neustrezna prehrana
 nevarnost kardiovaskularnih bolezni pri bolnikih z izraženo aterosklerozo ali sladkorno boleznijo
 nevarnost ponovne možganske kapi
 nevarnost razjed na želodcu ali dvanajstniku zaradi uporabe nsar
@@ -1401,6 +1476,7 @@ nevroendokrini tumorji pankreatičnega izvora
 nevropatska bolečina zaradi okužbe z virusom herpes zoster
 nevrotske motnje
 nevtropenija
+nevtropeničnih bolnikih
 nezadosten vnos kalcija s hrano
 nezadostna laktacija pri doječih materah
 nezadostno izločanje žolča
@@ -1427,8 +1503,10 @@ nodalna tahikardija
 nodozni eritem
 nodozni poliarteritis
 nodulocistične akne
+nohti
 nokardioza
 norice
+nos
 nosečnost in dojenje
 nosni in očesni simptomi pri celoletnem alergijskem rinitisu
 nosni in očesni simptomi pri sezonskem alergijskem rinitisu
@@ -1474,6 +1552,7 @@ obolenja venčnih arterij
 obolenja z luskasto kožo (dopolnilna terapija)
 obolenja zgornjih dihalnih poti
 obolenje zgornjih dihalnih poti
+obremenitve oči
 obsesivno kompulzivna motnja
 obsesivno-kompulzivna motnja
 obsesivno-kompulzivne motnje
@@ -1481,6 +1560,7 @@ obsevanje medeničnih organov
 obsevanje trebušnih organov
 obstipacija
 obstrukcija sečil pri benigni hiperplaziji prostate
+obstrukcija skupnega žolčevoda
 občasna blaga stanja nemira
 občutek napihnjenosti
 občutek nelagodja po telesnem naporu ali treningu
@@ -1503,10 +1583,15 @@ odložitev menstruacije
 odontogene okužbe
 odontogeni absces
 odpravljanje bacilonoštva šigele
+odrasli
+odrasli
 odrgnine
 odstranjevanje škodljivih snovi in strupov
+odtegnitev alkohola
+odtegnitveni sindrom
 odvajanje od kajenja
 odvisnost od alkohola
+odvisnost od kajenja
 odvisnost od kajenja
 odvisnost od opiatov
 odvisnost od opioidov
@@ -1519,6 +1604,7 @@ okrevanje po bolezni
 okrevanje po poškodbah
 okrevanje po poškodbi
 okrevanje po poškodbi/bolezni
+okužba dvanajstnika s helicobacter pylori
 okužba kože z virusom herpes simplex
 okužba po operaciji katarakte
 okužba razjed zaradi preležanin
@@ -1552,15 +1638,14 @@ okužba z virusom influence med izbruhom pandemije
 okužba zgornjega dela dihal
 okužba zgornjih dihal
 okužba zunanjega sluhovoda
-okužba želodca in dvanajstnika s helicobacter pylori
+okužba želodca s helicobacter pylori
 okužba žrela in ust
 okužbe
 okužbe bolnikov z nevtropenijo
 okužbe dihal
 okužbe dihalnih poti
 okužbe genitalnega področja
-okužbe kosti in sklepov
-okužbe kosti in sklepov
+okužbe kosti
 okužbe kože
 okužbe kože in drugih mehkih tkiv
 okužbe kože in mehkega tkiva
@@ -1595,13 +1680,17 @@ okužbe rodil
 okužbe rodil in sečil
 okužbe sečil
 okužbe sečil in rodil
+okužbe sklepov
+okužbe sklepov
 okužbe spodnjega dela dihal
+okužbe spodnjega dela dihal povzročene z Staphylococcus aureus, ki proizvaja betalaktamaze => okužbe spodnjega dela dihal; Staphylococcus; Staphylococcus aureus; okužbe
 okužbe spodnjih dihal
 okužbe spodnjih dihalnih poti
 okužbe sramnih ustnic in mejnega predela
 okužbe sramnih ustnic in predela okoli njih
 okužbe srednjega ušesa in sinusov
 okužbe ust in žrela
+okužbe ustne votline
 okužbe ustne votline z glivicami
 okužbe ušes, nosu in grla
 okužbe v ginekologiji
@@ -1617,6 +1706,7 @@ okužbe zgornjih dihal
 okužbe zgornjih dihalnih poti
 okužbe ženskih notranjih genitalij
 okužbe ženskih spolovil
+okužbe žrela
 okužene opekline
 okužene ozebline
 okužene rane
@@ -1626,17 +1716,19 @@ okužene venozne razjede goleni
 okuženi kirurški rezi
 okvara kapilar pri bolezensko spremenjenem venskem obtoku v nogah z oteklinami
 okvara levega prekata po miokardnem infarktu
+olajšati iztrebljanje
 oligomenoreja
 omejeno dihanje skozi nos
-miokardnem infarktu
 onihomikoza
-onihomikoze
 ooforitis
+opekline
+opekline
 opekline druge stopnje
 opekline tretje stopnje
 opekline z možnostjo infekcije
 opekline zaradi ožigalkarjev
 opeklinske okužbe
+operacije trebušne votline
 oralna kandidiaza
 organsko povzročena nespečnost
 orofaringealna kandidoza
@@ -1656,34 +1748,39 @@ osteoartroza perifernih sklepov
 osteoartroza sklepov
 osteomielitis
 osteoporoza
+osteoporoza pri moških
 otekanje nosne sluznice
 otekle noge
+otekline
 otekline zaradi opeklin
 otekline zaradi poškodb
 otekline zaradi udarcev
-otekline
+oteženo dihanje
 oteženo dihanje pri vnetju dihalnih poti
 oteženo dihanje skozi nos
 oteženo izkašljevanje
 otitis media
+otroci
 otroci in mladostniki v obdobju rasti
 otroci nižje rasti s turnerjevim sindromom
 otroci z zastojem v rasti
 otroški ekcem
+ovariektomiji
 ovulacija
 ovulacijska bolečina
-refluksni ezofagitis
 ozebline
 očesna hipertenzija
 očesna vnetna stanja
 očesne okužbe
 očesni herpes zoster
+ošpice
 pagetova bolezen
 palmoplantarna keratoderma
 palmoplantarna pustuloza
 panična motnja
 panične motnje
 panični napadi in fobije
+pankreatektomija
 papularne vulgarne akne
 papulopustularne vulgarne akne
 paradontoza
@@ -1693,7 +1790,9 @@ paranazalni sinuzitis
 parcialna epilepsija
 parcialni epileptični napadi
 parcialni napadi epilepsije
+parcialnih epileptičnih napadov
 parkinsonova bolezen
+parkinsonove bolezni
 parkinsonski sindromi
 paroksizmalna atrijska fibrilacija
 paroksizmalna nadprekatna tahikardija
@@ -1704,6 +1803,7 @@ pekoč občutek in draženje zaradi suhosti očesa
 pekoč občutek v očeh
 pekoča bolečina pri uriniranju
 pekoča bolečina v želodcu
+pekoče uriniranje
 pemfigus
 pemfigus vulgaris
 pemphigus vulgaris
@@ -1740,6 +1840,7 @@ plenični izpuščaji
 plevritis pri sistemski veznivnotkivni bolezni
 pljučna atelektaza
 pljučna embolija
+pljučna hipertenzija
 pljučna hipertenzija pri kroničnem pljučnem srcu
 pljučna sarkoidoza
 pljučna tuberkuloza
@@ -1755,9 +1856,6 @@ pljučnica
 pljučnice
 pnevmokokne okužbe
 pnevmonija
-diabetični komi
-miokardnem infarktu
-večkratnem izpiranju želodca
 podplutbe
 podplutbe zaradi infuzij ali injekcij
 podplutbe zaradi udarcev
@@ -1785,9 +1883,12 @@ poinfarktna angina pektoris
 pojemanje intelektualnih sposobnosti
 pojemanje spomina
 poklicni vozniki
+pokomocijski sindrom
 polimenoreja
+polimenoreji
 polimiozitis
 polinevritis
+polipozi črevesa
 pomanaknje folne kisline
 pomanjkanja folne kisline pri nosečnicah
 pomanjkanja folne kisline pri ženskah, ki načrtujejo zanositev
@@ -1808,9 +1909,11 @@ pomanjkanje vitamina e
 pomanjkanje vitaminov in mineralov
 pomanjkanje železa
 pomanjkanje železa med nosečnostjo
+pomanjkanjem SHOX
 pomankanje apetita
 pomankanje energije
 pomankanje esencialnih maščobnih kislin
+pomankanje estrogena
 pomankanje folata v času nosečnosti in dojenja
 pomankanje joda v prehrani
 pomankanje kalcija
@@ -1820,8 +1923,8 @@ pomankanje magnezija
 pomankanje motivacije
 pomankanje potence
 pomankanje vitamina c
-pomankanje vitaminov b
 pomankanje vitaminov
+pomankanje vitaminov b
 pomankanje železa
 pomankanje življenske energije
 pomankanje življenske moči
@@ -1838,19 +1941,10 @@ ponavljajoče okužbe sečil
 ponavljajoče se okužbe žrela in grla
 ponavljajoči kronični bronhitis
 ponovitev akutne vaginalne kandidoze
-refluksnim ezofagitisom
 ponovitev erozivnega ezofagitisa
 ponovitev kriptokokne bolezni pri bolnikih z aids-om
 ponovitev maničnih ali depresivnih epizod
 ponovitev miokardnega infarkta
-ponovitev razjed na dvanajstniku
-ponovitev razjed na želodcu
-ponovitev razjede na dvanajstniku
-ponovitev razjede na želodcu zaradi helicobacter pylori
-ponovitev refluksne bolezeni požiralnika
-ponovitev refluksnega ezofagitisa
-ponovitev srčnega infarkta
-ponovitve epizod bipolarne motnje
 ponovitve hudih depresivnih epizod
 ponovna možganska kap
 pooperacijske bolečine
@@ -1865,6 +1959,7 @@ pooperativni želodčni zastoj
 pooperativno vnetje veznice, roženice in sprednjega segmenta očesa
 pordela koža
 pordelost oči
+porod
 porodna sepsa
 portosistemska encefalopatija
 posebni primeri anksioznosti
@@ -1877,6 +1972,7 @@ poslabšanje kognitivnih sposobnosti
 poslabšanje kronične obstruktivne bolezni pljuč
 poslabšanje kroničnega bronhitisa
 pospeševanje izkašljevanja
+postmenopavza
 postmenopavzalna osteoporoza
 postoperativne bolečine
 postoperativni spazmi gladkega mišičja gastrointestinalnega trakta, žolčnika, žolčnih vodov in urogenitalnega sistema
@@ -1889,6 +1985,7 @@ posttrombotični sindrom
 potovalna bolezen
 potovalna driska
 potovalna slabost
+potrebo po povečanem vnosu beljakovin
 potrtost
 povečana fizična aktivnost
 povečana izpostavljenost psihofizičnemu stresu
@@ -1899,11 +1996,13 @@ povečana pogostnost uriniranja
 povečana poraba vitaminov skupine b
 povečana potreba organizma po magneziju
 povečana potreba po kalciju
-povečana potreba po kalciju in vitaminu c med dojenjem
 povečana potreba po kalciju in vitaminu
+povečana potreba po kalciju in vitaminu c med dojenjem
 povečana potreba po kalciju in vitaminu c med nosečnostjo
 povečana potreba po kalciju in vitaminu c pri gripi
 povečana potreba po kalciju in vitaminu c pri prehladu
+povečana potreba po kalciju med dojenjem 
+povečana potreba po vitaminu C med dojenjem 
 povečana potreba po vitaminu c
 povečana potreba po vitaminu e
 povečana prekatna frekvenca
@@ -1919,6 +2018,9 @@ povečane potrebe po vitaminu d
 povečane potrebe po vitaminu e
 povečane potrebe po železu
 povečane telesne obremenitve
+povečanih potreb po vitaminu c
+povečanim izločanjem želodčne kisline
+povečanimi potrebami po vitaminu c
 povečanje količine krvi v avtolognem programu darovanja krvi
 povečanje odpornosti
 povečano nastajanje plina po operacijah
@@ -1940,6 +2042,7 @@ površinski abscesi
 površinski tromboflebitis
 površinsko vnetje ven
 pozni stadij lymske bolezni
+poškodba hrbtenjače
 poškodbe hrustanca
 poškodbe jeter
 poškodbe jeter zaradi strupov
@@ -1950,7 +2053,6 @@ poškodbe sklepov
 poškodbe sluha
 praskanje v žrelu
 praske z možnostjo infekcije
-nespečnost
 pre-eklampsija
 prebavne motnje
 prebavne težave
@@ -1968,14 +2070,19 @@ predoperativna priprava ust in grla
 preeklampsija
 prehlad
 prehladna obolenja
+prehladnih obdobjih
+prehladnih obolenj
 prehodne motnje možganskega krvnega obtoka
 prehrana brez mlečnih izdelkov
 prehrana dojenčkov
 prehrana otrok
+prekatne tahikardije
+prekatno migetanje
 prekomeren apetit
 prekomeren spolni nagon
 prekomerna laktacija
 prekomerna telesna masa
+prekomerne telesne mase
 prekomerno izločanje želodčne kisline
 prekomerno nastajanje ali kopičenje plina v prebavilih
 prekomerno uživanje alkohola
@@ -1992,6 +2099,7 @@ presaditev organov
 presnovne motnje
 prestavitev mesečne krvavitve
 preutrujenost
+prevelikim izločanjem želodčne kisline
 prezgodnja puberteta
 prhljaj
 pridobljena avtoimunska hemolitična anemija
@@ -2016,8 +2124,9 @@ primarni hiperaldosteronizem
 primarni ploščatocelični karcinom glave in vratu
 primarni sifilis
 primarni sklerozirajoči holangitis
-primarno generalizirani tonično-klonični napadi pri idiopatski generalizirani epilepsiji
 primarno generalizirani tonično-klonični napadi
+primarno generalizirani tonično-klonični napadi pri idiopatski generalizirani epilepsiji
+primarno generaliziranih tonično-kloničnih napadov
 priprava bolnika za zdravljenje z radioaktivnim jodom po tiroidektomiji
 priprava na diagnostične preiskave zgornjih prebavil
 priprava na rinološke preglede in operacije
@@ -2052,6 +2161,7 @@ psihogeni mišično-skeletni sindromi
 psihomotorična agitacija
 psihosomatske motnje
 psihotična stanja
+psihotične motnje
 psoriasis vulgaris
 psoriatični artritis
 psoriaza
@@ -2060,21 +2170,27 @@ puerperalni mastitis
 purulentni bakterijski konjuktivitis
 quinckejev edem
 radiacijski pnevmonitis
+radikulalgija
+radioterapija
 ragade z možnostjo infekcije
-rahitis in osteomalacija
 rahitis
+rahitis in osteomalacija
 rak dojke
 rak skvamoznih celic glave in vratu
 rakasta obolenja
 rakava obolenja
 rakave bolezni
+ramenski bolečinski sindrom
 rane po proktoloških operacijah
 rane, ki se slabo celijo
+rastni hormon
 razdražena koža
 razdraženost
 razdražljivost
 razjeda dvanajstnika
 razjeda na dvanajstniku
+razjeda na dvanajstniku
+razjeda na želodcu
 razjeda na želodcu
 razjeda želodca
 razjede in erozije na želodcu in dvanajstniku
@@ -2093,15 +2209,20 @@ razstrupljanje telesa
 razvoj zdravih zob in močnih kosti v mladosti
 razširjanje okužb z mikobakterijami pri bolnikih z aidsom
 rdečica na koži
+rdečke
 reakcije presadka kostnega mozga proti prejemniku
 reaktivni artritis
 reaktivni artritisi
 recidiv golše po strumektomiji
 refluksna bolezen
 refluksna bolezen požiralnika
+refluksna bolezen požiralnika
 refluksne bolezni požiralnika
 refluksne bolezni želodca
 refluksni ezofagitis
+refluksni ezofagitis
+refluksni ezofagitis
+refluksnim ezofagitisom
 regionalni enteritis
 regurgitacija
 rektoskopija
@@ -2111,6 +2232,7 @@ relaps bolezni pri shizofrenih bolnikih
 renovaskularna hipertenzija
 respiratorna insuficienca s kroničnim pljučnim srcem
 respiratorne bakterijske okužbe
+retencija urina
 retrakcija dlesni
 reverzibilna zapora dihalnih poti
 reverzibilni bronhospazem
@@ -2135,7 +2257,6 @@ rinosinusitis
 roemheldov sindrom
 rozacea
 rozaceiformni steroidni dermatitis
-hormonske motnje
 s kristali povzročen artritis
 s kristali povzročena vnetja
 salmoneloze
@@ -2175,12 +2296,13 @@ sepsa
 septični artritis
 septični splav
 septični šok
-spondilartritisi
 serumska bolezen
 sezonski alergijski rinitis
 sheehanov sindrom
 shizofrenija
+shujševalnih dietah
 sideropenična stanja
+siljenje na vodo
 simpatična oftalmija
 simptom suhih ust
 simptomatično srčno popuščanje
@@ -2191,9 +2313,12 @@ simptomatska gastroezofagealne refluksne bolezen
 simptomatska obolenja venčnih arterij
 simptomatska pljučna sarkoidoza
 simptomatska prekatna tahikardija
+simptomatska prekatna tahikardija
 simptomatska supraventrikularna tahiaritmija
 simptomatska urinska inkontinenca
 simptomatska venska tromboembolija
+simptomatske motnje prekatnega ritma
+simptomatskega srčnega popuščanja
 simptomatski parkinsonizem
 simptomatsko srčno popuščanje
 simptomatsko zdravljenje menierove bolezni
@@ -2219,8 +2344,8 @@ simptomi pri sindromu prekomerno aktivnega sečnega mehurja
 simptomi refluksa
 simptomi sezonskega alergijskega konjunktivitisa
 simptomi sezonskega alergijskega rinitisa
-simptomi spodnjega dela sečil pri benigni hiperplaziji prostate
 simptomi spodnjega dela sečil
+simptomi spodnjega dela sečil pri benigni hiperplaziji prostate
 simptomi spodnjega urinarnega trakta, povezani z benigno hiperplazijo prostate
 simptomi virusnega rinitisa
 simptomi zgage in regurgitacije kisline pri gastroezofagealni refluksni bolezni
@@ -2235,6 +2360,8 @@ sindrom roke
 sindrom suhega očesa
 sindrom vzdraženega debelega črevesa
 sindrom zollinger-ellison
+sindroma iritabilnega kolona
+sindromom prekomerno aktivnega sečnega mehurja
 sinovitis
 sinusitis
 sinusitis
@@ -2272,28 +2399,34 @@ slabo počutje
 slabokrvnost
 slabokrvnost zaradi pomankanja železa
 slabost
-slabost in bruhanje
 slabost
+slabost in bruhanje
 sladkorna bolezen
 sladkorna bolezen tipa 2
 sladkorna bolezen tipa ii
+sladkorne bolezni
+sluznica ust in žrela
 socialna anksiozna motnja
 socialna anksiozna motnja/socialna fobija
 socialna fobija
 socialne anksiozne motnje
 solarni dermatitis
 somatske motnje zaradi stresa, anksioznosti in napetosti
+somatsko obolenje
 sončne opekline
+sočasna uporaba antibiotikov
 sočasna uporaba statinov
 sočasno zdravljenje helicobacter pylori
 sočasno zdravljenje hipertiroze s tirostatiki
 sočasno zdravljenje okužbe s helicobacter pylori
+sočne opekline
 spahovanje
 spastičnost
 spazem v prebavilih
 spazem v rodilih
 spazem v sečilih
 spazem žolčnih poti
+spazmi gladkega mišičja
 spazmodični tortikolis
 splošna in lokalna anestezija
 splošna mišična utrudljivost in oslabelost
@@ -2303,12 +2436,12 @@ spodbujanje prebave in praznjenja črevesja
 spodbujanje presnove
 spolno prenosljive bolezni
 spomladanski konjunktivitis
+spondilartritisi
 spondiloartritis
 spondiloartritisi
 spondiloartroza
 spondiloza
 sporotrihoza
-idiopatskem nefrotičnem sindromu
 srbenja pri dermatozah
 srbenje
 srbenje v nosu
@@ -2323,10 +2456,13 @@ srednje močna do močna bolečina
 srednje močne bolečine
 srednje močne do močne bolečine
 srednje težke navadne akne
+srpastocelične anemije
+srčna bolezen
 srčna obolenja
 srčne aritmije
 srčni dogodki pri bolnikih z miokardnim infarktom ali revaskularizacijo v anamnezi
 srčni dogodki pri bolnikih z miokardnim infarktom in/ali revaskularizacijo v anamnezi
+srčni infarkt
 srčni infarkt pri ljudeh s srčno-žilnimi dejavniki tveganja
 srčno popuščanje
 srčno-žilne bolezni
@@ -2341,26 +2477,15 @@ stabilna koronarna arterijska bolezen
 stabilna vulgarna psoriaza v plakih
 stabilno blago do hudo srčno popuščanje
 stabilno kronično srčno popuščanje z zmanjšano sistolično funkcijo ventriklov
+stafilokoki
 stafilokokni enterokolitis
-povečanih potreb po vitaminu c
-potrebo po povečanem vnosu beljakovin
-povečanim izločanjem želodčne kisline
-povečanimi potrebami po vitaminu c
-prevelikim izločanjem želodčne kisline
-suhimi očmi
-zaželjenim lahkim odvajanjem in mehkim blatom
-zmedenosti
-olajšati iztrebljanje
-zveča agregacija trombocitov
-adrenalektomiji
-hipofizektomiji
-ovariektomiji
 starejše osebe
+starejši
 starejši ljudje
 starostne spremembe kože
 starostne spremembe žilja
 starostni pruritus
-kronični stabilni obremenitveni angini pektoris
+stenokardije
 stevens-johnsonov sindrom
 stomatitis
 streptokokne okužbe
@@ -2384,6 +2509,7 @@ suhe dermatoze
 suhe oči
 suhi keratokonjunktivitis
 suhi listi olea europea
+suhimi očmi
 suho in razdraženo oko
 suho vnetje roženice in veznice
 sum na akutni srčni infarkt
@@ -2459,8 +2585,8 @@ tinea cruris
 tinea pedis
 tinea versicolor
 tinitus
-absence
 tirotoksična kriza
+tiščanje na vodo
 toksične reakcije zaradi pikov insektov
 toksični dermatitis
 toksoplazmoza
@@ -2502,11 +2628,13 @@ tveganje za nastanek alzheimerjeve bolezni
 tveganje za nastanek bolezni srca in ožilja
 tveganje za osteoporozo
 udarnine
+ugrizi človeka
 ugrizi živali
 ugrizi živali ali človeka
 ugrizi živali in človeka
 uhajanje urina
 ulcerozni ezofagitis
+ulcerozni kolitis
 ulcerozni kolitis
 ulkus korneae
 ulkus na prebavilih
@@ -2521,13 +2649,14 @@ uporaba očesne proteze
 uporaba trdih kontaktnih leč
 upočanjen metabolizem
 uravnavanje prebave
+uremija
 uretralna gonoreja
 uretritis
-sindromom prekomerno aktivnega sečnega mehurja
 urgentna inkontinenca
 urogenitalne motnje, povezane z benigno hiperplazijo prostate
 urološki zapleti pri benigni hiperplaziji prostate
 urtikarija
+usta
 ustne razjede
 utrujene in nategnjene mišice na nogah
 utrujene oči
@@ -2540,14 +2669,15 @@ utrujenost v mišicah po športni aktivnosti
 utrujenosti nog po hoji
 uvajanje v anestezijo
 uveitis
+uveitis
+ušesa
 vaginalna kandidoza
+vaginitis
 variantna (prinzmetalova) angina pektoris
 variantna angina pektoris
 varikozne razjede
-prehladnih obdobjih
 vaskularni glavobol
 vaskulitični sindrom
-srpastocelične anemije
 vazospastična angina pektoris
 vazospazemska (prinzmetalova) angina pektoris
 vedenjske motnje pri bolnikih z demenco
@@ -2563,6 +2693,7 @@ vestibularne motnje
 vetrovi
 večje telesne obremenitve
 večji srčno-žilni dogodki
+večkratnem izpiranju želodca
 vlažen izpuščaj
 vlaženje mešička veznice pred operacijo katarakte
 vlaženje očesne površine pred operacijo
@@ -2582,14 +2713,21 @@ vnetje gornjih dihalnih poti
 vnetje grla
 vnetje jeter
 vnetje kože
+vnetje ledvic
 vnetje mandeljnov
+vnetje mehurja
 vnetje mišic
 vnetje nožnične sluznice
+vnetje obnosnih votlin
+vnetje obnosnih votlin
+vnetje oči
 vnetje po akutnih topih poškodbah
 vnetje po operaciji katarakte
 vnetje po operaciji očesa
 vnetje respiratornega trakta
+vnetje roženice
 vnetje sečil
+vnetje sluznice
 vnetje sluznice prebavnega trakta
 vnetje sluznice ustne votline, žrela in dlesni
 vnetje sprednjega segmenta očesa
@@ -2597,8 +2735,10 @@ vnetje srednjega ušesa
 vnetje ust in žrela
 vnetje ustne sluznice
 vnetje ustne votline
+vnetje ušes
 vnetje ušes, grla in nosu
 vnetje v ledvenem delu hrbtenice
+vnetje veznice
 vnetje vidnega živca
 vnetje zunanjega sluhovoda
 vnetje žolčnika
@@ -2649,7 +2789,6 @@ vznemirjenost
 wegenerjeva granulomatoza
 westov sindrom
 z bakterijami okužen ekcem
-astme
 zadajšnji neinfektivni uveitis
 zahtevni fizični napori
 zamašen nos
@@ -2688,20 +2827,11 @@ zaščita kože med uv obsevanjem
 zaščita kože pri ragadah
 zaščita sluznice ustne votline in žrela
 zaščita ustne sluznice
-epileptičnih napadov v povezavi z lennox-gastautovim sindromom
-generaliziranih napadov epilepsije
-hipertenzije
-kronične srčne insuficience
-maničnih epizod
-napadov, povezanih z lennox-gastautovim sindromom
-parcialnih epileptičnih napadov
-zparcialnih napadov epilepsije
-parkinsonove bolezni
-primarno generaliziranih tonično-kloničnih napadov
+zaželjenim lahkim odvajanjem in mehkim blatom
 zdravljenje s kemoterapevtiki
 zdravljenje s širokospektralnimi antibiotiki
-simptomatskega srčnega popuščanja
 zdravljenje z diuretiki, digitalisom in odvajali, ki izčrpavajo zaloge magnezija
+zdravljenju z antibiotiki
 zgaga
 zgodnji invazivni rak dojke
 zgodnji rak dojk
@@ -2715,6 +2845,7 @@ zmanjšana odpornost
 zmanjšanje količine absorbiranih maščob zaužitih s hrano
 zmanjšanje proteinurije pri idiopatskem nefrotičnem sindromu
 zmanjšano delovanje slinavk
+zmedenosti
 zmeren do hud aktivni revmatoidni artritis
 zmeren do hud idiopatski sindrom nemirnih nog
 zmerna dehidracija
@@ -2745,10 +2876,12 @@ znaki prehlada
 znaki sluznične involucije
 znotrajtrebušni abscesi
 zobna gniloba
+zobna proteza
 zobne obloge
 zobni absces
 zobobol
 zollinger-ellisonov sindrom
+zparcialnih napadov epilepsije
 zunaj bolnišnična pljučnica
 zunajsklepna prizadetost pri revmatoidnem artritisu
 zunajsklepna revmatska obolenja
@@ -2759,6 +2892,7 @@ zunanje bradavice na spolovilu in v okolici zadnjične odprtine
 zunanje okužbe očesa in adneksov
 zunanji hemeroidi
 zunanji hemoroidi
+zveča agregacija trombocitov
 zvečana pogostnost mokrenja
 zvečano število trombocitov
 zvin
@@ -2766,6 +2900,7 @@ zvišan intraokularni tlak pri kroničnem glavkomu z odprtim zakotjem
 zvišan intraokularni tlak pri psevdoeksfoliacijskemu glavkomu
 zvišan okularni tlak pri glavkomu z odprtim zakotjem
 zvišan okularni tlak pri kroničnem glavkomu z odprtim zakotjem
+zvišan očesni tlak
 zvišan očesni tlak pri glavkomu z odprtim zakotjem
 zvišan očesni tlak pri kroničnem glavkomu z odprtim zakotjem
 zvišana telesna temperatura
@@ -2774,6 +2909,7 @@ zvišana telesna temperatura
 čista aplastična anemija
 čiščenje površinskih ran
 čiščenje črevesja
+čiščenju organizma
 črevesna amebiaza
 črevesne težave s spremljajočo drisko
 čustvena napetost
@@ -2788,11 +2924,12 @@ zvišana telesna temperatura
 šumenje v ušesih
 želeno odvajanje mehkega blata
 želodčna razjeda
+ženske
 ženske s histerektomijo v postmenopavzalnem obdobju
 ženske v rodni dobi
 žepki v dlesnih
 žilna demenca
 žilni glavoboli
-prekatne tahikardije
-prekatno migetanje
+živčnosti
 žolčni kamni
+žrelo

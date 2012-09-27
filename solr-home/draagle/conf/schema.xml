@@ -24,6 +24,7 @@
 		<field name="is_urgent" type="boolean" indexed="true" stored="true" required="false" />
 
 		<field name="product_type" type="string" indexed="true" stored="true" required="false" />
+		<field name="logo" type="string" indexed="false" stored="true" required="false" />
 
 		<field name="manufacturer" type="text_sl" indexed="true" stored="true" required="false"/>
 		<field name="idzp" type="text_sl" indexed="true" stored="true" required="false"/>

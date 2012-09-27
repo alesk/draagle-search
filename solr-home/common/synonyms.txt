@@ -37,7 +37,7 @@ adrenalen, nadledvičen, suprarenalen
 afakija, brezlečnost
 agregacija, akumulacija, kopičenje, nabiranje
 agresija, agresivnost, napadalnost, nasilnost
-akna, mozolj, ogrc
+akna, mozolj, ogrc = > ogrc
 aknavost, mozoljavost
 akomodacija, prilagoditev
 akumulirati, kopičiti, nalagati
@@ -502,3 +502,5 @@ dvanajstnik,dvanajsternik
 kurac, penis, lulček, lulek, kurec
 depresivne motnje, depresivna motnja, depresija
 sladkorna bolezen => diabetes
+hemeroidi => hemoroidi
+šumenje v ušesih => tinitus

@@ -7,6 +7,7 @@ from hashlib import md5
 import urllib, urllib2
 import codecs
 import json
+import indication_synonyms
 
 HOST = '127.0.0.1'
 PORT = 27017
@@ -37,7 +38,7 @@ def remove_after(text, chars_to_strip_from, words_to_leave=2):
         results.append(text[0:pos])
   return strip(min(results))
 
-def drug_to_solr(drug_id):
+def drug_to_solr(drug_id, processed_options):
     drug = db.drug_drug.find_one(drug_id)
     drug_id = drug['_id']
     atc_id = drug['atc']
@@ -63,6 +64,16 @@ def drug_to_solr(drug_id):
     manufacturer = drug.get('manufacturer','') or ''
     idzp = drug.get('idzp','') or ''
 
+    for indication in indications:
+      stemized_i = indication_synonyms.stemize(indication, processed_options.get('stem_exceptions'))
+      for subindication in indication_synonyms.condense_phrase(
+          stemized_i, processed_options.get('condensed_indications'), processed_options.get('stemized_ci')):
+        yield {
+          'type': 'indication',
+          'id':md5(subindication.encode('utf-8')).hexdigest(),
+          'name':subindication
+        }
+
     for i in ingredients:
       for name in known_as[i['name']]:
         name_ = strip(remove_after(name, "(,;-"))
@@ -71,12 +82,6 @@ def drug_to_solr(drug_id):
           'id':md5(name_.encode('utf-8')).hexdigest(),
           'name':name_
           }
-
-    for name in indications:
-      yield {
-        'type':'indication', 
-        'id':md5(name.encode('utf-8')).hexdigest(),
-        'name':name }
 
     if manufacturer:
       yield {
@@ -104,7 +109,8 @@ def drug_to_solr(drug_id):
       'is_proxy':drug['is_proxy'],
       'rezim_izdaje':drug.get('rezim_izdaje', None),
       'trigonik':drug.get('trigonik', None),
-      'product_type':drug.get('product_type', "8")
+      'product_type':drug.get('product_type', "8"),
+      'logo':drug.get('logo', None)
       }
     
 def populate():
@@ -144,14 +150,19 @@ def report_solr_error(response_json):
   response = json.loads(response_json)
   print response['responseHeader']
 
-def solr_import():
-  WANTED_TYPES=['ingredient', 'drug']
+def solr_import(opts):
+  WANTED_TYPES=['ingredient', 'drug', 'indication']
+
+  procesed_options = indication_synonyms.process_options(opts)
 
   for drug_id, drug_name in get_drug_proxy_list():
-    print drug_id, drug_name
-    docs = filter(lambda x: x['type'] in WANTED_TYPES, drug_to_solr(drug_id))
-    json_to_send = "[%s]" % ",\n".join([json.dumps(doc) for doc in docs])
-    report_solr_error(solr_send(json_to_send, options={'commit':'true'}))
+    try:
+      docs = filter(lambda x: x['type'] in WANTED_TYPES, drug_to_solr(drug_id, procesed_options))
+      json_to_send = "[%s]" % ",\n".join([json.dumps(doc) for doc in docs])
+      report_solr_error(solr_send(json_to_send, options={'commit':'true'}))
+    except:
+      import pdb; pdb.set_trace()
+      pass
 
   report_solr_error(solr_send(None, options={'optimize':'true', 'wt':'json'}))
 
@@ -174,4 +185,7 @@ def solr_send(payload, options={}):
 
 if __name__ == "__main__":
   #export()
-  solr_import()
+  options = dict(
+      stem_exceptions='stem_exceptions.txt', 
+      condensed_indications='indication.txt')
+  solr_import(options)

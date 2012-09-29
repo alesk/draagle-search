@@ -12,18 +12,18 @@
 		<field name="id" type="string" indexed="true" stored="true" required="true"/>
 		<field name="name" type="text_sl" indexed="true" stored="true" required="true"/>
 
-		<field name="identities" type="string" indexed="true" stored="true" required="false" multiValued="true"/>
+		<field name="identities" type="text_sl" indexed="true" stored="true" required="false" multiValued="true"/>
 		<field name="ingredients" type="ingredient_string" indexed="true" stored="true" required="false" multiValued="true"/>
 		<field name="excipient" type="ingredient_string" indexed="true" stored="true" required="false" multiValued="true"/>
 		<field name="known_as" type="ingredient_string" indexed="true" stored="true" required="false" multiValued="true"/>
 
     <field name="indications" type="text_sl_term" indexed="true" stored="true" required="false" multiValued="true" termVectors="true" termPositions="true" termOffsets="true" />
-		<field name="rezim_izdaje" type="string" indexed="true" stored="true" required="false" multiValued="true"/>
-		<field name="trigonik" type="string" indexed="true" stored="true" required="false" multiValued="true"/>
+		<field name="rezim_izdaje" type="text_sl" indexed="true" stored="true" required="false" multiValued="true"/>
+		<field name="trigonik" type="text_sl" indexed="true" stored="true" required="false" multiValued="true"/>
 		<field name="is_proxy" type="boolean" indexed="true" stored="true" required="false" />
 		<field name="is_urgent" type="boolean" indexed="true" stored="true" required="false" />
 
-		<field name="product_type" type="string" indexed="true" stored="true" required="false" />
+		<field name="product_type" type="text_sl" indexed="true" stored="true" required="false" />
 		<field name="logo" type="string" indexed="false" stored="true" required="false" />
 
 		<field name="manufacturer" type="text_sl" indexed="true" stored="true" required="false"/>

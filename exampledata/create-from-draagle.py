@@ -61,8 +61,11 @@ def drug_to_solr(drug_id, processed_options):
       for i in ingredients])
 
     indications = [ f['name'] for f in filter_by_sort(facts, INDICATION) if f['name']]
-    manufacturer = drug.get('manufacturer','') or ''
-    idzp = drug.get('idzp','') or ''
+    manufacturer = drug.get('manufacturer','')
+    idzp = drug.get('idzp','')
+
+    manufacturer = manufacturer and len(manufacturer) > 3 and manufacturer or ''
+    idzp = idzp and len(idzp) > 3 and idzp or ''
 
     for indication in indications:
       stemized_i = indication_synonyms.stemize(indication, processed_options.get('stem_exceptions'))
@@ -104,8 +107,8 @@ def drug_to_solr(drug_id, processed_options):
       'ingredients':[ k for k in known_as.keys()],
       'known_as':sum([v for v in known_as.values()], []),
       'indications':[ f['name'] for f in filter_by_sort(facts, INDICATION) if f['name']],
-      'manufacturer':drug['manufacturer'],
-      'idzp':drug['idzp'],
+      'manufacturer':manufacturer,
+      'idzp':idzp,
       'is_proxy':drug['is_proxy'],
       'rezim_izdaje':drug.get('rezim_izdaje', None),
       'trigonik':drug.get('trigonik', None),
@@ -161,6 +164,7 @@ def solr_import(opts):
       json_to_send = "[%s]" % ",\n".join([json.dumps(doc) for doc in docs])
       report_solr_error(solr_send(json_to_send, options={'commit':'true'}))
     except:
+      raise
       import pdb; pdb.set_trace()
       pass
 

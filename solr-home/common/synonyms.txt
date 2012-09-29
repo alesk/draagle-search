@@ -501,6 +501,6 @@ vnetje možgani, encefalitis
 dvanajstnik,dvanajsternik
 kurac, penis, lulček, lulek, kurec
 depresivne motnje, depresivna motnja, depresija
-sladkorna bolezen => diabetes
-hemeroidi => hemoroidi
-šumenje v ušesih => tinitus
+sladkorna bolezen, diabetes
+hemeroidi, hemoroidi
+šumenje v ušesih, tinitus

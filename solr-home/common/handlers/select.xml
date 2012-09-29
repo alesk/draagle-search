@@ -120,6 +120,7 @@
      <lst name="defaults">
        <str name="defType">edismax</str>
        <int name="rows">10</int>
+       <str name="sort">score desc</str>
 
        <!-- deafult operator -->
        <str name="q.op">AND</str>
@@ -128,7 +129,7 @@
        <!--<str name="q.alt">{!type=dismax v=$qq}</str>-->
 
        <!-- "query field" -->
-       <str name="qf">identities^20 name^1.0 ingredinets^0.8 indications^0.7 known_as^0.5</str>
+       <str name="qf">identities^20 name^1.0 ingredinets^0.8 indications^0.4 known_as^0.7</str>
 
        <!-- look only among drugs -->
        <str name="fq">type:drug</str>
@@ -137,7 +138,7 @@
        <str name="wt">json</str>
 
        <!-- fields to return -->
-       <str name="fl">name,id,type,atc,ingredients,known_as,rezim_izdaje,is_proxy,is_urgent,manufacturer,logo,idzp,product_type</str>
+       <str name="fl">name,id,type,atc,ingredients,known_as,rezim_izdaje,is_proxy,is_urgent,manufacturer,logo,idzp,product_type,score</str>
 
        <!-- disable this for production -->
        <str name="debugQuery">off</str>
@@ -162,7 +163,7 @@
 
       <!-- herbal drug, food aditive, cosmetics, other -->
       <str name="type3query">product_type:"4" OR product_type:"5" OR product_type:"6" OR product_type:"7" OR product_type:"8"</str>
-      <double name="type3boost">0.0</double>
+      <double name="type3boost">0.5</double>
 
        <!-- Highlighting defaults -->
        <str name="hl">true</str>
@@ -172,8 +173,10 @@
        <str name="hl.fragListBuilder">simple</str>
        <str name="hl.fragmentsBuilder">colored</str>
        <str name="hl.requireFieldMatch">true</str>
-       <str name="hl.snippets">5</str>
-       <str name="hl.fragSize">10</str>
+       <str name="hl.snippets">1</str>
+       <str name="hl.fragSize">0</str>
+       <str name="hl.usePhraseHighlighter">true</str>
+       <str name="hl.requireFieldMatch">true</str>
        <!--<str name="hl.maxAnalysedChars">50</str>-->
        <str name="hl.phraseLimit">10</str>
 

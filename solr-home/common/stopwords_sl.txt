@@ -1,7 +1,3 @@
-ali
-ampak
-brez
-d.d
 d.d.
 d.o.o.
 enako
@@ -56,4 +52,3 @@ zares
 zlasti
 čeprav
 čez
-

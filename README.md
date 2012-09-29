@@ -56,8 +56,42 @@ For testing with plovr see http://plovr.com/testing.html.
 
   * payloads http://sujitpal.blogspot.com/2010/10/denormalizing-maps-with-lucene-payloads.html  
 
+## InstallinElasticSearch
+
+If this is your first install, automatically load ElasticSearch on login with:
+    mkdir -p ~/Library/LaunchAgents
+    ln -nfs /usr/local/Cellar/elasticsearch/0.19.9/homebrew.mxcl.elasticsearch.plist ~/Library/LaunchAgents/
+    launchctl load -wF ~/Library/LaunchAgents/homebrew.mxcl.elasticsearch.plist
+
+If this is an upgrade and you already have the homebrew.mxcl.elasticsearch.plist loaded:
+    launchctl unload -w ~/Library/LaunchAgents/homebrew.mxcl.elasticsearch.plist
+    ln -nfs /usr/local/Cellar/elasticsearch/0.19.9/homebrew.mxcl.elasticsearch.plist ~/Library/LaunchAgents/
+    launchctl load -wF ~/Library/LaunchAgents/homebrew.mxcl.elasticsearch.plist
+
+If upgrading from 0.18 ElasticSearch requires flushing before shutting
+down the cluster with no indexing operations happening after flush:
+    curl host:9200/_flush
+
+To stop the ElasticSearch daemon:
+    launchctl unload -wF ~/Library/LaunchAgents/homebrew.mxcl.elasticsearch.plist
+
+To start ElasticSearch manually:
+    elasticsearch -f -D es.config=/usr/local/Cellar/elasticsearch/0.19.9/config/elasticsearch.yml
+
+See the 'elasticsearch.yml' file for configuration options.
+
+You'll find the ElasticSearch log here:
+    open /usr/local/var/log/elasticsearch/elasticsearch_ales.log
+
+The folder with cluster data is here:
+    open /usr/local/var/elasticsearch/elasticsearch_ales/
+
+You should see ElasticSearch running:
+    open http://localhost:9200/
+  
 
 ## References
 
   1 https://github.com/cominvent/autocomplete
   2 "IBM's series on solr" http://www.ibm.com/developerworks/java/library/j-solr1/#searching
+  3 http://blog.willcarpenterinteractive.com/2010/07/01/solr-search-stop-words-and-dismax-search-handler/

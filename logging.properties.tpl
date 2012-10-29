@@ -43,4 +43,4 @@ java.util.logging.FileHandler.count = 10
 
 # Log to the logs directory, with log files named solrxxx.log
 # java.util.logging.FileHandler.pattern = ${solr.solr.home}/../logs/solr%u.log
-java.util.logging.FileHandler.pattern = ./logs/solr%u.log
+java.util.logging.FileHandler.pattern = /home/draagle2/draagle-search/logs/solr%u.log

@@ -26,12 +26,14 @@ export JAVA_OPTIONS="-server \
                      -Xms128m -Xmx256m \
                      -Duser.language=sl \
                      -Duser.country=SI \
-                     -Dsolr.solr.home=$SOLR_HOME \
-                     -Djetty.port=$PORT \
-                     -Djava.util.logging.config.file=$SOLR_HOME/../logging.properties \
                      $JAVA_OPTIONS"
-echo JAVA_OPTIONS is $JAVA_OPTIONS
 
-cd $JETTY_HOME
-java $JAVA_OPTIONS -jar start.jar
+#cd $JETTY_HOME
+java $JAVA_OPTIONS \
+  -Djetty.home=$JETTY_HOME \
+  -Dsolr.solr.home=$SOLR_HOME \
+  -Djava.util.logging.config.file="$SOLR_HOME/../logging.properties" \
+  -Djetty.port=$JETTY_PORT \
+  -jar $JETTY_HOME/start.jar
+
 

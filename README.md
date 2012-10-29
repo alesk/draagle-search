@@ -90,6 +90,15 @@ You should see ElasticSearch running:
     open http://localhost:9200/
   
 
+## Install solr as service with upstart
+
+Copy `solr.conf.tpl` to `/etc/init/solr.conf` and set paths accordingly. Copy `logging.properties.tpl`
+to `logging.properties` in $SOLR_HOME and correct loging path.
+
+You can start solr with:
+
+    sudo start solr
+
 ## References
 
   1 https://github.com/cominvent/autocomplete

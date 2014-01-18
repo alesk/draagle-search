@@ -3,7 +3,14 @@ draagle-search
 
 Configuration of solr search for draagle.com
 
-## run
+## Dependencies
+The only dependency is Oracle java. To [install on ubuntu][4], do:
+
+    sudo add-apt-repository ppa:webupd8team/java
+    sudo apt-get update
+    sudo apt-get install oracle-java7-installer
+
+## Run
 
 Use `source env` or set `JETTY_HOME` by hand. `JETTY_HOME` should point to examples directory
 of solr instalation, such as:
@@ -101,6 +108,7 @@ You can start solr with:
 
 ## References
 
-  1 https://github.com/cominvent/autocomplete
-  2 "IBM's series on solr" http://www.ibm.com/developerworks/java/library/j-solr1/#searching
-  3 http://blog.willcarpenterinteractive.com/2010/07/01/solr-search-stop-words-and-dismax-search-handler/
+[1]: https://github.com/cominvent/autocomplete
+[2]: "IBM's series on solr" http://www.ibm.com/developerworks/java/library/j-solr1/#searching
+[3]: http://blog.willcarpenterinteractive.com/2010/07/01/solr-search-stop-words-and-dismax-search-handler/
+[4]: http://www.webupd8.org/2012/01/install-oracle-java-jdk-7-in-ubuntu-via.html

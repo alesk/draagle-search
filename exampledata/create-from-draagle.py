@@ -46,12 +46,13 @@ def drug_to_solr(drug_id, processed_options):
 
     if atc_id:
       atc = db.drug_atc.find_one({'$or':[{'_id':atc_id}, {'name':atc_id}]})
-      atc_name = strip("%s %s" % (atc_id, atc.get('name', '')))
-      yield {
-        'type':'atc', 
-        'id':atc_id,
-        'name': atc_name
-        }
+      if atc:
+        atc_name = strip("%s %s" % (atc_id, atc.get('name', '')))
+        yield {
+          'type':'atc', 
+          'id':atc_id,
+          'name': atc_name
+          }
 
     facts = list(db.drug_fact.find({'drugs':drug_id}))
 
